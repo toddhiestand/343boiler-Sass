@@ -2,7 +2,7 @@
 
 // REGISTER TAXONOMY SAMPLE
 
-  function be_register_sermonseries_taxonomy() {
+  function be_register_sample_taxonomy() {
    $labels = array(
      'name' => 'Note Series',
      'singular_name' => 'Series',
@@ -17,16 +17,16 @@
      'menu_name' => 'Series'
    );  
 
-   register_taxonomy( 'sermon-series', array('sermons'), 
+   register_taxonomy( 'taxonomy-sample', array('sample'), 
      array(
        'hierarchical' => true,
        'labels' => $labels,
        'show_ui' => true,
        'query_var' => true,
-       'rewrite' => array( 'slug' => 'sermon-series' ),
+       'rewrite' => array( 'slug' => 'taxonomy-sample' ),
      )
    );
  }
- add_action( 'init', 'be_register_sermonseries_taxonomy' );
+ add_action( 'init', 'be_register_sample_taxonomy' );
 
  ?>
