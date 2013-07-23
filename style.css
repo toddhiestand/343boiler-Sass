@@ -1,0 +1,205 @@
+/* @override http://www.343theme.com/site/wp-content/themes/343boiler/style.css */
+
+/*  
+Theme Name: 343 Boilerplate
+Theme URI: http://www.343theme.com
+Description: Created by 343design
+Version: 2.0
+Author: Todd Hiestand
+Author URI: http://www.343design.com/
+*/
+
+@import "css/reset.css";
+
+body {
+	margin:0 auto;padding:0;
+	font: 1em/1.5em Georgia, Sans-serif;
+	color: #333;
+	background: url(images/bg.png) repeat #;
+	-webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address{ 
+	line-height:133%;
+}
+
+a {
+	color: # ;
+	text-decoration: none;
+}
+
+a:hover {
+	color: # ;
+	text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-family: ;
+	font-weight:bold; 
+	line-height: 100%;
+}
+
+h1 {font-size: 2em ;}
+h2 {font-size: 1.8em;}
+h3 {font-size: 1.6em;}
+h4 {font-size: 1.4em;}
+h5 {font-size: 1.2em;}
+h6 {font-size: 1em;}
+
+blockquote {
+
+}
+
+/*GLOBAL LAYOUT STYLES */
+
+.page-content {
+}
+
+.sidebar {
+
+}
+
+.sidebar-section {
+	float: left;
+	width: 100%;
+	margin: 5% 0;
+}
+
+
+/*GLOBAL ARTICLES STYLES */
+
+.article {
+	float: left;
+	padding: 5% 0;
+}
+
+.meta {
+	
+}
+
+.date {
+	
+}
+
+.comments {
+	
+}
+
+.btn.more {
+
+}
+
+.page-content p {
+	margin: .7em 0;
+}
+
+.page-content ul,
+.page-content ol {
+	margin: 0 50px;
+}
+
+.page-content ul li {
+	list-style: disc;
+}
+
+.page-content ol li {
+	list-style: decimal;
+}
+
+/* IMAGE STYLES */
+
+img.alignright {float:right; margin:0 0 1em 1em}
+img.alignleft {float:left; margin:0 1em 1em 0}
+img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+a img.alignright {float:right; margin:0 0 1em 1em}
+a img.alignleft {float:left; margin:0 1em 1em 0}
+a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
+
+
+/* nav */
+.nav {
+	position: relative;
+	margin: 20px 0;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.nav li {
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+.nav a {
+	padding: 3px 12px;
+	text-decoration: none;
+	line-height: 100%;
+}
+.nav a:hover {
+}
+.nav .current a {
+	border-radius: 5px;
+}
+
+@media screen and (max-width: 600px) {
+	.nav {
+		position: relative;
+		min-height: 40px;
+	}	
+	.nav ul {
+		width: 100%;
+		padding: 15px 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		background: #e0e0e0 url(images/icon-menu.png) no-repeat 10px 10px;
+		border-radius: 5px;
+	}
+	.nav li {
+		display: none; /* hide all <li> items */
+		margin: 0;
+	}
+	.nav .current {
+		display: block; /* show only current <li> item */
+	}
+	.nav a {
+		display: block;
+		padding: 5px 15px;
+		text-align: left;
+	}
+	.nav .current a {
+		background: none;
+		color: #666;
+	}
+
+	/* on nav hover */
+	.nav ul:hover {
+		background-image: none;
+	}
+	.nav ul:hover li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	.nav ul li a:hover {
+		background: #666;
+	}
+	.nav ul:hover .current {
+		background: url(../images/icon-check.png) no-repeat 10px 7px;
+	}
+
+	/* right nav */
+	.nav.right ul {
+		left: auto;
+		right: 0;
+	}
+
+	/* center nav */
+	.nav.center ul {
+		left: 50%;
+		margin-left: -90px;
+	}
+	
+}
+
