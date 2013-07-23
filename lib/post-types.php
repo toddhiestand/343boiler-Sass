@@ -3,7 +3,7 @@
  
 // Register Sample Post Type
 
-  function be_register_custom_post_type() {
+  function be_register_sample_post_type() {
    $labels = array(
      'name' => 'Post',
      'singular_name' => 'Post',
