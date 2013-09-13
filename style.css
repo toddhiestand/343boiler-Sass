@@ -55,6 +55,9 @@ blockquote {
 
 }
 
+strong, b {font-weight: bold;}
+em, i {font-style: italic;}
+
 /*GLOBAL LAYOUT STYLES */
 
 .page-content {
@@ -70,6 +73,34 @@ blockquote {
 	margin: 5% 0;
 }
 
+
+/* NAV */
+
+.nav {
+	position: relative;
+	margin: 20px 0;
+}
+.nav ul {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.nav li {
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+.nav a {
+	padding: 3px 12px;
+	text-decoration: none;
+	line-height: 100%;
+}
+.nav a:hover {
+}
+.nav .current a {
+	border-radius: 5px;
+}
 
 /*GLOBAL ARTICLES STYLES */
 
@@ -194,32 +225,6 @@ ul.page-numbers .current {
 }
 
 
-/* nav */
-.nav {
-	position: relative;
-	margin: 20px 0;
-}
-.nav ul {
-	margin: 0;
-	padding: 0;
-	text-align: center;
-}
-.nav li {
-	margin: 0 5px 10px 0;
-	padding: 0;
-	list-style: none;
-	display: inline-block;
-}
-.nav a {
-	padding: 3px 12px;
-	text-decoration: none;
-	line-height: 100%;
-}
-.nav a:hover {
-}
-.nav .current a {
-	border-radius: 5px;
-}
 
 @media screen and (max-width: 768px) {
 	
