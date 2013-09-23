@@ -39,6 +39,15 @@ function register_my_menus() {
 }
 add_action( 'init', 'register_my_menus' );
 
+
+/**
+ * Show Kitchen Sink in WYSIWYG Editor
+ */
+function mb_unhide_kitchensink($args) {
+	$args['wordpress_adv_hidden'] = false;
+	return $args;
+}
+
 // LOGIN STYLE
 function custom_login() { 
 echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/lib/login.css" />'; 
