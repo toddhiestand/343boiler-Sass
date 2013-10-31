@@ -33,7 +33,7 @@
 
 
 /* DEFAULT ROW STYLES */
-.row { margin-bottom: 1.5em; } /* set according to preference*/
+.row { padding-top: 1.5em; padding-bottom: 1.5em; } /* set according to preference*/
 
 							  
 /* DEFAULT COLUMN STYLES */
