@@ -8,13 +8,31 @@ Template Name: Home Page
 	
 <?php get_template_part( 'head'); ?>
 
-<div  class="wide-container">
+
+<div class="wide-container parallax parasample" data-stellar-background-ratio="0.3">
 
 	<div class="container">
 	
 		<div class="row">
+		
+			<div class="col span_10 centered">
+				<h1>A little paralax loving</h1>
+				<p>Lorem ipsum dolor sit amet, mea an sonet melius phaedrum, viderer euismod eu quo. Ea sit quod eros nulla, ei est dolore sapientem, qualisque corrumpit ex mel.</p>
+			</div>
+		
+		</div>
+
+	</div>
+</div>
+
+
+<div  class="wide-container">
+
+	<div class="container">
 	
-			<div class="page-content col span_16 clr">
+		<div class="row" >
+	
+			<div class="page-content col span_16 clr" >
 	
 				<header>
 					<h1><?php the_title(); ?></h1>

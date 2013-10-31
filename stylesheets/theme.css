@@ -56,88 +56,102 @@ h6 {
 .wide-container.footer-wide {
   background: #eeeeee;
 }
+/* line 36, ../sass/theme.scss */
+.wide-container.parasample {
+  background: url(../images/paralax-sample.jpg);
+  padding: 40px 0;
+}
+/* line 40, ../sass/theme.scss */
+.wide-container.parallax {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+}
 
 /* Nav */
-/* line 40, ../sass/theme.scss */
+/* line 54, ../sass/theme.scss */
 .nav {
   position: relative;
   margin: 20px 0;
 }
-/* line 43, ../sass/theme.scss */
+/* line 57, ../sass/theme.scss */
 .nav ul {
   margin: 0;
   padding: 0;
   text-align: center;
 }
-/* line 47, ../sass/theme.scss */
+/* line 61, ../sass/theme.scss */
 .nav ul li {
   margin: 0;
   padding: 0 5px 10px 0;
   list-style: none;
   display: inline-block;
 }
-/* line 52, ../sass/theme.scss */
+/* line 66, ../sass/theme.scss */
 .nav ul li a {
   padding: 3px 12px;
   text-decoration: none;
   line-height: 100%;
 }
-/* line 56, ../sass/theme.scss */
+/* line 70, ../sass/theme.scss */
 .nav ul li a:hover {
   background: #ccc;
 }
-/* line 61, ../sass/theme.scss */
+/* line 75, ../sass/theme.scss */
 .nav ul li.current a {
   background: #ccc;
 }
 
 /*  page layout */
-/* line 72, ../sass/theme.scss */
+/* line 86, ../sass/theme.scss */
 .page-content p {
   margin: .7em 0;
 }
-/* line 76, ../sass/theme.scss */
+/* line 90, ../sass/theme.scss */
 .page-content ul li {
   list-style: decimal;
 }
-/* line 81, ../sass/theme.scss */
+/* line 95, ../sass/theme.scss */
 .page-content ol li {
   list-style: decimal;
 }
 
 /* wordpress image styles */
-/* line 89, ../sass/theme.scss */
+/* line 103, ../sass/theme.scss */
 img.alignright {
   float: right;
   margin: 0 0 1em 1em;
 }
 
-/* line 90, ../sass/theme.scss */
+/* line 104, ../sass/theme.scss */
 img.alignleft {
   float: left;
   margin: 0 1em 1em 0;
 }
 
-/* line 91, ../sass/theme.scss */
+/* line 105, ../sass/theme.scss */
 img.aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-/* line 92, ../sass/theme.scss */
+/* line 106, ../sass/theme.scss */
 a img.alignright {
   float: right;
   margin: 0 0 1em 1em;
 }
 
-/* line 93, ../sass/theme.scss */
+/* line 107, ../sass/theme.scss */
 a img.alignleft {
   float: left;
   margin: 0 1em 1em 0;
 }
 
-/* line 94, ../sass/theme.scss */
+/* line 108, ../sass/theme.scss */
 a img.aligncenter {
   display: block;
   margin-left: auto;
@@ -145,7 +159,7 @@ a img.aligncenter {
 }
 
 /* special typography */
-/* line 98, ../sass/theme.scss */
+/* line 112, ../sass/theme.scss */
 .button {
   position: relative;
   top: 0;
@@ -174,24 +188,24 @@ a img.aligncenter {
   border: 1px solid #ccc;
   background: "#0083AB";
 }
-/* line 125, ../sass/theme.scss */
+/* line 139, ../sass/theme.scss */
 .button.medium {
   padding: 5px 10px;
 }
-/* line 128, ../sass/theme.scss */
+/* line 142, ../sass/theme.scss */
 .button.small {
   padding: 2px 5px;
 }
-/* line 131, ../sass/theme.scss */
+/* line 145, ../sass/theme.scss */
 .button:hover {
   background: #ccc;
 }
-/* line 134, ../sass/theme.scss */
+/* line 148, ../sass/theme.scss */
 .button.dark {
   background: "#0083AB";
   color: #ccc;
 }
-/* line 137, ../sass/theme.scss */
+/* line 151, ../sass/theme.scss */
 .button.dark:hover {
   background: #444;
 }

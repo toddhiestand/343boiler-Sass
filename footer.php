@@ -19,9 +19,34 @@
 			</div><!-- end container -->
 		
 		</div>
+		
+		
 
 	<?php wp_footer(); ?>
 	
 	</body>
 
 </html>
+
+<!-- Just some parallax awesomeness -->
+<script>
+$(function(){
+	$.stellar({
+		horizontalScrolling: false,
+		verticalOffset: 200
+	});
+});
+</script>
+
+
+<script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery.slidepanel.js"></script>
+<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/css/jquery.slidepanel.css">
+
+<script type="text/javascript">
+      $(document).ready(function(){
+          $('[data-slidepanel]').slidepanel({
+              orientation: 'left',
+              mode: 'push'
+          });
+      });
+</script>

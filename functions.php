@@ -20,10 +20,13 @@ require_once('lib/widgets.php');
 //jquery from google cdn
      wp_deregister_script('jquery');
      wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', false, '1.8.3');
+	 wp_register_script( 'stellar', get_stylesheet_directory_uri() . '/js/jquery.stellar.js', array(), false );
 
-wp_enqueue_style('flex-stylesheet');
-    wp_enqueue_script( 'jquery' );
-    wp_enqueue_script( 'flexslider' );
+
+	 wp_enqueue_style('flex-stylesheet');
+     wp_enqueue_script( 'jquery' );
+     wp_enqueue_script( 'flexslider' );
+     wp_enqueue_script( 'stellar' );
 
 // Add us some fancy menus
 

@@ -33,7 +33,21 @@ h6 {font-size: 1em;}
 	&.footer-wide {
 		background: $primarylightcolor;
 	}
+	&.parasample {
+		background: url(../images/paralax-sample.jpg);
+		padding: 40px 0;
+	}
+	&.parallax {
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		position: relative;
+		background-attachment: fixed;
+	}
+	
 }
+
 
 /* Nav */
 
