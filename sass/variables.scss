@@ -1,0 +1,38 @@
+// fonts 
+
+$primaryfont:"proxima-nova", sans-serif;
+$primarybuttoncolor: #EEEEEE;
+
+
+// colors
+
+$primarycolor:#0099cc;
+$primarylightcolor: #EEEEEE ;
+
+$lightfontweight:100;
+$primaryfontweight: 400;
+$boldfontweight: 700;
+
+
+// other fun stuff 
+
+$bordercolor: #ddd;
+$insetshadow: inset 0px 3px 4px 1px rgba(0, 0, 0, .3);
+$outsetshadow: 0px -3px 4px 1px rgba(0, 0, 0, .2);
+
+
+// mixins
+
+@mixin rounded($radius) {
+        -webkit-border-radius: $radius;
+        -moz-border-radius: $radius;
+        border-radius: $radius;
+}
+
+@mixin trans($transition) {
+        -webkit-transition: background $transition ease-in-out;
+        -moz-transition: background $transition ease-in-out;
+        -ms-transition: background $transition ease-in-out;
+        -o-transition: background $transition ease-in-out;
+        transition: background $transition ease-in-out;
+}
