@@ -1,7 +1,7 @@
 
 <?php get_header() ?>
 	
-<?php get_template_part( 'head'); ?>
+	<?php get_template_part( 'head'); ?>
 
 <div  class="wide-container">
 	

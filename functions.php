@@ -15,20 +15,18 @@ require_once('lib/widgets.php');
 // Register some often used Scripts 
 
 // flexslider
-//     wp_register_script( 'flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider-min.js', array(), '2.1', false );
-//     wp_register_style( 'flex-stylesheet', get_stylesheet_directory_uri() . '/js/flexslider.css', array(), '', 'all' );
-
+     wp_register_script( 'flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider-min.js', array(), '2.1', false );
+     wp_register_style( 'flex-stylesheet', get_stylesheet_directory_uri() . '/js/flexslider.css', array(), '', 'all' );
 //jquery from google cdn
      wp_deregister_script('jquery');
      wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', false, '1.8.3');
-//	 wp_register_script( 'stellar', get_stylesheet_directory_uri() . '/js/jquery.stellar.js', array(), false );
+	 wp_register_script( 'stellar', get_stylesheet_directory_uri() . '/js/jquery.stellar.js', array(), false );
 
 
-
-//	 wp_enqueue_style('flex-stylesheet');
+	 wp_enqueue_style('flex-stylesheet');
      wp_enqueue_script( 'jquery' );
-//    wp_enqueue_script( 'flexslider' );
-//     wp_enqueue_script( 'stellar' );
+     wp_enqueue_script( 'flexslider' );
+     wp_enqueue_script( 'stellar' );
 
 // Add us some fancy menus
 
