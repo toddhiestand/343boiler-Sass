@@ -1,0 +1,141 @@
+a {
+  color: "#0083AB"; }
+  a:hover {
+    color: "#0083AB"; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.8em; }
+
+h3 {
+  font-size: 1.6em; }
+
+h4 {
+  font-size: 1.4em; }
+
+h5 {
+  font-size: 1.2em; }
+
+h6 {
+  font-size: 1em; }
+
+/* Page Layout */
+.wide-container {
+  width: 100%;
+  background: #fff; }
+  .wide-container.header-wide {
+    background: #eeeeee; }
+  .wide-container.footer-wide {
+    background: #eeeeee; }
+  .wide-container.parasample {
+    background: url(../images/paralax-sample.jpg);
+    padding: 40px 0; }
+  .wide-container.parallax {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed; }
+
+/* Nav */
+.nav {
+  position: relative;
+  margin: 20px 0; }
+  .nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center; }
+    .nav ul li {
+      margin: 0;
+      padding: 0 5px 10px 0;
+      list-style: none;
+      display: inline-block; }
+      .nav ul li a {
+        padding: 3px 12px;
+        text-decoration: none;
+        line-height: 100%; }
+        .nav ul li a:hover {
+          background: #ccc; }
+      .nav ul li.current a {
+        background: #ccc; }
+
+/*  page layout */
+.page-content p {
+  margin: .7em 0; }
+.page-content ul li {
+  list-style: decimal; }
+.page-content ol li {
+  list-style: decimal; }
+
+/* wordpress image styles */
+img.alignright {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0; }
+
+img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+a img.alignright {
+  float: right;
+  margin: 0 0 1em 1em; }
+
+a img.alignleft {
+  float: left;
+  margin: 0 1em 1em 0; }
+
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* special typography */
+.button {
+  position: relative;
+  top: 0;
+  left: 0;
+  vertical-align: middle;
+  margin: 0;
+  padding: 10px 15px;
+  line-height: 100%;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: auto;
+  overflow: visible;
+  font-weight: normal;
+  font-size: 14px;
+  text-shadow: 0 1px 0 #fff;
+  color: #666;
+  text-decoration: none;
+  vertical-align: middle;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: inline-block;
+  zoom: 1;
+  border: 1px solid #ccc;
+  background: "#0083AB"; }
+  .button.medium {
+    padding: 5px 10px; }
+  .button.small {
+    padding: 2px 5px; }
+  .button:hover {
+    background: #ccc; }
+  .button.dark {
+    background: "#0083AB";
+    color: #ccc; }
+    .button.dark:hover {
+      background: #444; }
