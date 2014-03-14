@@ -62,9 +62,7 @@ function register_my_menus() {
   register_nav_menus(
     array(
       'main-menu' => __( 'Main Menu' ),
-      'utility-menu' => __( 'Utility Menu' ),
-      'sitemap-menu' => __( 'Sitemap Menu' )
-      
+      'utility-menu' => __( 'Utility Menu' )      
     )
   );
 }
