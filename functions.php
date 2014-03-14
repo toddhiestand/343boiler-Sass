@@ -9,10 +9,10 @@ require_once(__DIR__ . '/lib/post-types.php');
 // Includes our custom widgets
 require_once(__DIR__ . '/lib/widgets.php');
 
-// Includes our admin funtions 
+// Includes our admin funtions
 require_once(__DIR__ . '/lib/admin.php');
 
-function 343boiler_enqueue_scripts() {
+function boiler_enqueue_scripts() {
 // Register some often used Scripts
 
   // register some of our custom styles
@@ -53,10 +53,10 @@ function 343boiler_enqueue_scripts() {
 
 }
 
-add_action('wp_enqueue_scripts', '343boiler_enqueue_scripts');
+add_action('wp_enqueue_scripts', 'boiler_enqueue_scripts');
 
 
-// Add RSS links to the header 
+// Add RSS links to the header
   add_theme_support('automatic-feed-links');
 
 // Add a few different custom excerpt lengths
@@ -73,7 +73,7 @@ add_action('wp_enqueue_scripts', '343boiler_enqueue_scripts');
    function wpe_excerptmore($more) {
        return '...<p><a class="btn more" href="'. get_permalink($post->ID) . '">' . 'Read More &rarr;' . '</a></p>';
    }
-   
+
    function wpe_excerpt($length_callback='', $more_callback='') {
        global $post;
        if(function_exists($length_callback)){
@@ -89,21 +89,21 @@ add_action('wp_enqueue_scripts', '343boiler_enqueue_scripts');
    }
 
  // Add some featured images and sizes
- 
- if ( function_exists( 'add_theme_support' ) ) { 
+
+ if ( function_exists( 'add_theme_support' ) ) {
  add_theme_support( 'post-thumbnails' );
  set_post_thumbnail_size( 150, 150, true ); // default Post Thumbnail dimensions (cropped)
- 
+
  // additional image sizes
  // delete the next line if you do not need additional image sizes
  add_image_size( 'image-small', 150, 9999 ); //300 pixels wide (and unlimited height)
  add_image_size( 'image-single', 300, 9999 ); //300 pixels wide (and unlimited height)
 
  }
-            
 
 
- 
+
+
  // Get rid of those self-pings
  function no_self_ping( &$links ) {
      $home = get_option( 'home' );
@@ -112,11 +112,11 @@ add_action('wp_enqueue_scripts', '343boiler_enqueue_scripts');
              unset($links[$l]);
  }
  add_action( 'pre_ping', 'no_self_ping' );
-     
- 
+
+
 
 // Add some helpful styles to the backend
-function gist_custom_admin_styles() { 
+function gist_custom_admin_styles() {
    echo '<style type="text/css">
       #wp-admin-bar-site-name > .ab-item {
         background: transparent url(/site/wp-content/themes/343boiler/logo.png) 4px 3px no-repeat !important;
@@ -136,7 +136,7 @@ function gist_custom_admin_styles() {
 }
 if ( is_user_logged_in() ) {
   add_action('admin_head', 'gist_custom_admin_styles'); // Logo in admin bar
-  add_action('wp_head', 'gist_custom_admin_styles'); 
+  add_action('wp_head', 'gist_custom_admin_styles');
 }
 
 // LETS CREAT A FUNCTIN FOR THE SUBNAV
