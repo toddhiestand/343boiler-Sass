@@ -1,16 +1,14 @@
 <?php
 
-// Includes our custom post types
-require_once('lib/post-types.php');
-
 // Includes our custom taxonomies
-require_once('lib/taxonomies.php');
+require_once(__DIR__ . '/lib/taxonomies.php');
 
-// Includes our custom meta-boxes
-require_once('lib/meta-boxes.php');
+// Includes our custom post types
+require_once(__DIR__ . '/lib/post-types.php');
 
-// Includes our custom meta-boxes
-require_once('lib/widgets.php');
+// Includes our custom widgets
+require_once(__DIR__ . '/lib/widgets.php');
+
 
 function 343boiler_enqueue_scripts() {
 // Register some often used Scripts
