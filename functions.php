@@ -1,61 +1,59 @@
 <?php
 
-// Includes our custom post types
-require_once('lib/post-types.php');
-
 // Includes our custom taxonomies
-require_once('lib/taxonomies.php');
+require_once(__DIR__ . '/lib/taxonomies.php');
 
-// Includes our custom meta-boxes
-require_once('lib/meta-boxes.php');
+// Includes our custom post types
+require_once(__DIR__ . '/lib/post-types.php');
 
-// Includes our custom meta-boxes
-require_once('lib/widgets.php');
+// Includes our custom widgets
+require_once(__DIR__ . '/lib/widgets.php');
 
-// Register some often used Scripts 
+// Includes our admin funtions 
+require_once(__DIR__ . '/lib/admin.php');
 
-// flexslider
-     wp_register_script( 'flexslider', get_stylesheet_directory_uri() . '/js/jquery.flexslider-min.js', array(), '2.1', false );
-     wp_register_style( 'flex-stylesheet', get_stylesheet_directory_uri() . '/js/flexslider.css', array(), '', 'all' );
-//jquery from google cdn
-     wp_deregister_script('jquery');
-     wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js', false, '1.8.3');
-	 wp_register_script( 'stellar', get_stylesheet_directory_uri() . '/js/jquery.stellar.js', array(), false );
+function 343boiler_enqueue_scripts() {
+// Register some often used Scripts
 
+  // register some of our custom styles
+      wp_register_style( 'ss-pika', get_template_directory_uri() . '/fonts/symbolset/ss-pika.css', array(), '', 'all' );
+      wp_register_style( 'ss-social', get_template_directory_uri() . '/fonts/ss-social-circle/ss-social-circle.css', array(), '', 'all' );
+      // wp_register_style( 'bscss', get_template_directory_uri() . '/css/jquery.bxslider.css', array(), '', 'all' );
+      // wp_register_style( 'pushycss', get_template_directory_uri() . '/stylesheets/pushy.css', array(), '', 'all' );
+      //wp_register_style( 'tabscss', get_template_directory_uri() . '/stylesheets/easy-responsive-tabs.css', array(), '', 'all' );
 
-	 wp_enqueue_style('flex-stylesheet');
-     wp_enqueue_script( 'jquery' );
-     wp_enqueue_script( 'flexslider' );
-     wp_enqueue_script( 'stellar' );
+   // register da scripts
+      wp_deregister_script('jquery');
+      wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js', false, '1.8.3');
+      wp_register_script( 'modernizer', get_template_directory_uri() . '/js/modernizr-2.6.2.min.js', array(), true );
+      wp_register_script( '343theme', get_template_directory_uri() . '/js/theme.js', array(), true );
+      // wp_register_script( 'pushy', get_template_directory_uri() . '/js/pushy.js', array(), true,'1.0',true,true );
+      // wp_register_script( 'stellar', get_template_directory_uri() . '/js/jquery.stellar.js', array(), true,true );
+      // wp_register_script( 'bxjs', get_template_directory_uri() . '/js/jquery.bxslider.js', array(), true,true );
+      //wp_register_script( 'selects', get_template_directory_uri() . '/js/jquery.customSelect.min.js', array(), true,true );
+      // wp_register_script( 'tabs', get_template_directory_uri() . '/js/easyResponsiveTabs.js', array(), true,true );
 
-// Add us some fancy menus
+   // enqueue da styles
+      wp_enqueue_style('ss-pika');
+      wp_enqueue_style('ss-social');
+      // wp_enqueue_style('bscss');
+      // wp_enqueue_style('pushycss');
+      // wp_enqueue_style('tabscss');
 
-function register_my_menus() {
-  register_nav_menus(
-    array(
-      'main-menu' => __( 'Main Menu' ),
-      'utility-menu' => __( 'Utility Menu' ),
-      'sitemap-menu' => __( 'Sitemap Menu' )
-      
-    )
-  );
+   // enqueue da scripts
+      wp_enqueue_script( 'jquery' );
+      wp_enqueue_script( 'modernizer' );
+      wp_enqueue_script( '343theme' );
+      // wp_enqueue_script( 'pushy' );
+      // wp_enqueue_script( 'stellar' );
+      // wp_enqueue_script( 'slides' );
+      // wp_enqueue_script( 'bxjs' );
+      // wp_enqueue_script( 'selects' );
+      // wp_enqueue_script( 'tabs' );
+
 }
-add_action( 'init', 'register_my_menus' );
 
-
-/**
- * Show Kitchen Sink in WYSIWYG Editor
- */
-function mb_unhide_kitchensink($args) {
-	$args['wordpress_adv_hidden'] = false;
-	return $args;
-}
-
-// LOGIN STYLE
-function custom_login() { 
-echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/lib/login.css" />'; 
-}
-add_action('login_head', 'custom_login');
+add_action('wp_enqueue_scripts', '343boiler_enqueue_scripts');
 
 
 // Add RSS links to the header 
@@ -90,7 +88,6 @@ add_action('login_head', 'custom_login');
        echo $output;
    }
 
- 
  // Add some featured images and sizes
  
  if ( function_exists( 'add_theme_support' ) ) { 
@@ -104,13 +101,8 @@ add_action('login_head', 'custom_login');
 
  }
             
-// spam & delete links for all versions of wordpress
- function delete_comment_link($id) {
-     if (current_user_can('edit_post')) {
-         echo '| <a href="'.get_bloginfo('wpurl').'/wp-admin/comment.php?action=cdc&c='.$id.'">del</a> ';
-         echo '| <a href="'.get_bloginfo('wpurl').'/wp-admin/comment.php?action=cdc&dt=spam&c='.$id.'">spam</a>';
-     }
- }
+
+
  
  // Get rid of those self-pings
  function no_self_ping( &$links ) {
@@ -121,115 +113,7 @@ add_action('login_head', 'custom_login');
  }
  add_action( 'pre_ping', 'no_self_ping' );
      
- // Rid ourselves of the default metaboxes on the post screen
-    function remove_default_post_screen_metaboxes() {
-  remove_meta_box( 'postexcerpt','post','normal' ); // Excerpt Metabox
-  remove_meta_box( 'trackbacksdiv','post','normal' ); // Talkback Metabox
-  remove_meta_box( 'authordiv','post','normal' ); // Author Metabox
-  }
-    add_action('admin_menu','remove_default_post_screen_metaboxes');
  
- // Rid ourselves of the default metaboxes on the pages screen
-    function remove_default_page_screen_metaboxes() {
-  remove_meta_box( 'postexcerpt','post','normal' ); // Excerpt Metabox
-  remove_meta_box( 'trackbacksdiv','post','normal' ); // Talkback Metabox
-  remove_meta_box( 'authordiv','post','normal' ); // Author Metabox
-  }
-    add_action('admin_menu','remove_default_page_screen_metaboxes');
-    
-// Remove all the stupid face widgets from the dashboard
-
-  add_action('wp_dashboard_setup', 'my_custom_dashboard_widgets');
-
-function my_custom_dashboard_widgets() {
- global $wp_meta_boxes;
- 
- unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_plugins']);
- unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_primary']);
- unset($wp_meta_boxes['dashboard']['side']['core']['dashboard_secondary']);
- unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_recent_comments']);
- unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_incoming_links']);
- unset($wp_meta_boxes['dashboard']['normal']['core']['dashboard_right_now']);
- 
- wp_add_dashboard_widget('custom_help_widget', 'Help and Support', 'custom_dashboard_help');
-  }
- 
- function custom_dashboard_help() {
-  echo '<p>If you need help or support for your website, please contact 343design at <a href="mailto:todd@343design.com">todd@343design.com</a></p>';
- }
-
-// Add custom branding to the footer of the admin
- 
-function modify_footer_admin () {
-  echo 'Created by <a href="http://www.343design.com">343design</a>.';
-}
-
-add_filter('admin_footer_text', 'modify_footer_admin');
-
-/**
- * Customize Admin Bar Items
- * @since 1.0.0
- * @link http://wp-snippets.com/addremove-wp-admin-bar-links/
- */
-function be_admin_bar_items() {
-  global $wp_admin_bar;
-  $wp_admin_bar->remove_menu( 'new-link', 'new-content' );
-}
-add_action( 'wp_before_admin_bar_render', 'be_admin_bar_items' );
-
-/**
- * Customize Menu Order
- * @since 1.0.0
- *
- * @param array $menu_ord. Current order.
- * @return array $menu_ord. New order.
- *
- */
-function be_custom_menu_order( $menu_ord ) {
-  if ( !$menu_ord ) return true;
-  return array(
-    'index.php', // this represents the dashboard link
-
-    );
-}
-
-add_filter( 'custom_menu_order', 'be_custom_menu_order' );
-add_filter( 'menu_order', 'be_custom_menu_order' );
-
-
-// Remove unnecessary items from the admin bar
-function gist_custom_admin_bar_remove() {
-  global $wp_admin_bar;
-  $wp_admin_bar->remove_menu('wp-logo');
-  // $wp_admin_bar->remove_menu('comments');
-  $wp_admin_bar->remove_menu('new-media');
-  $wp_admin_bar->remove_menu('new-link');
-  $wp_admin_bar->remove_menu('new-theme');
-  $wp_admin_bar->remove_menu('w3tc');
-}
-add_action('wp_before_admin_bar_render', 'gist_custom_admin_bar_remove', 0);
-
-/**
- * Remove Menu Items
- * @since 1.0.0
- *
- * Remove unused menu items by adding them to the array.
- * See the commented list of menu items for reference.
- *
- */
-function be_remove_menus () {
-  global $menu;
-  $restricted = array(__('Media'));
-  // Example:
-  //$restricted = array(__('Dashboard'), __('Posts'), __('Media'), __('Links'), __('Pages'), __('Appearance'), __('Tools'), __('Users'), __('Settings'), __('Comments'), __('Plugins'));
-  end ($menu);
-  while (prev($menu)){
-    $value = explode(' ',$menu[key($menu)][0]);
-    if(in_array($value[0] != NULL?$value[0]:"" , $restricted)){unset($menu[key($menu)]);}
-  }
-}
-add_action( 'admin_menu', 'be_remove_menus' );
-
 
 // Add some helpful styles to the backend
 function gist_custom_admin_styles() { 
@@ -255,5 +139,24 @@ if ( is_user_logged_in() ) {
   add_action('wp_head', 'gist_custom_admin_styles'); 
 }
 
+// LETS CREAT A FUNCTIN FOR THE SUBNAV
+if(!function_exists('get_post_top_ancestor_id')){
+/**
+ * Gets the id of the topmost ancestor of the current page. Returns the current
+ * page's id if there is no parent.
+ *
+ * @uses object $post
+ * @return int
+ */
+function get_post_top_ancestor_id(){
+    global $post;
+
+    if($post->post_parent){
+        $ancestors = array_reverse(get_post_ancestors($post->ID));
+        return $ancestors[0];
+    }
+
+    return $post->ID;
+}}
 
 ?>

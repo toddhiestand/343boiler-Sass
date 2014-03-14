@@ -1,5 +1,4 @@
-343boiler
-=========
+##343boiler
 
 343boiler is a very simple boilerplate that serves as a starting place for most 343design projects.
 
