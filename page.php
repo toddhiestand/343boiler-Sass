@@ -3,13 +3,9 @@
 	<?php get_template_part( 'head'); ?>
 
 	<div class="wide-container">
-	
 		<div class="container">
-		
 			<div class="row">
-		
-				<div class="page-content col span_16 clr">
-		
+				<div class="page-content col span_16">
 					<header>
 						<h1><?php the_title(); ?></h1>
 					</header>
@@ -18,15 +14,10 @@
 					<?php endwhile; else: ?>
 					<?php _e('Sorry, no posts matched your criteria.'); ?>
 					<?php endif; ?>
-		
 				</div>
-		
 				<?php get_sidebar()?>
-		
 			</div><!-- end row-->
-		
 		</div> <!-- end container-->
-	
 	</div> 
 
 <?php get_footer() ?>

@@ -14,13 +14,22 @@
 	</body>
 </html>
 
-<!-- Just some parallax awesomeness 
+<!-- some js we mgiht use
 <script>
-$(function(){
-	$.stellar({
-		horizontalScrolling: false,
-		verticalOffset: 200
+	$(function(){
+		$.stellar({
+			horizontalScrolling: false,
+			verticalOffset: 200
+		});
 	});
-});
+
+	 $('.slider-name').bxSlider({
+		  pagerCustom: '.bx-pager-name',
+		  minSlides: 1,
+		  maxSlides: 1,
+		  moveSlides: 0,
+		  slideWidth: 0
+	 }); 
+
 </script>
 -->
