@@ -1,6 +1,4 @@
-
 <?php get_header() ?>
-	
 	<?php get_template_part( 'head'); ?>
 
 <div  class="wide-container">
@@ -40,7 +38,6 @@
 					</header>	
 				<?php } ?>
 				<?php while (have_posts()) : the_post(); ?>
-								
 					<div class="article">
 						<p class="meta date"><?php the_time('F j, Y'); ?></p>
 						<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
@@ -48,18 +45,12 @@
 						<?php wpe_excerpt('wpe_excerptlength_index', 'wpe_excerptmore'); ?>			
 						<p class="meta comments"><a href="<?php comments_link(); ?>" class="comments"><?php comments_number('0 Comments', '1 Comment', '% Comments', 'number'); ?></a></p>
 					</div>
-						
 				<?php endwhile; ?>
-	
-				<?php get_template_part( 'inc/feature', 'pagination' ); ?>
-			
+					<?php get_template_part( 'inc/feature', 'pagination' ); ?>
 				<?php else : ?>
-			
 					<h2 class="center">Not Found</h2>
 					<?php include (TEMPLATEPATH . '/searchform.php'); ?>
-			
 				<?php endif; ?>
-
 			</div>	
 			<?php get_sidebar()?>
 		</div><!-- end row-->
