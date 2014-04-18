@@ -1,7 +1,4 @@
-$primarycolor:"#0083AB";
-$primarylightcolor: #EEEEEE ;
-$primaryfont:"Helvetica Neue, Helvetica, sans-serif";
-
+@import "variables.scss";
 
 a {
 	color: $primarycolor;
@@ -20,6 +17,35 @@ h3 {font-size: 1.6em;}
 h4 {font-size: 1.4em;}
 h5 {font-size: 1.2em;}
 h6 {font-size: 1em;}
+
+fieldset{ 
+	border:none;
+}
+
+input#search {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.pin {
+  width: 100%;
+  z-index: 999999;
+}
+
+.pinned {
+  position: fixed !important;
+    .no-text a {
+		margin: 25px auto;
+		text-indent: 100%;
+		white-space: nowrap;
+		overflow: hidden;
+		background: url(../images/logo-small-nav.png) no-repeat;
+		width: 43px;
+		height: 61px;
+		display: block;
+	}
+}
+
 
 /* Page Layout */
 
@@ -45,6 +71,45 @@ h6 {font-size: 1em;}
 		background-attachment: fixed;
 	}
 	
+}
+
+.pagination {
+	float:left;
+	width: 100%;
+	ul {
+		list-style: none;
+		margin: 2em auto;
+		padding: 0;
+		text-align: center;
+		color: #555555;
+		font-size: 90%;
+		li {
+			display: inline;
+		}
+		a {
+			&.page-numbers {
+				background-color: $primarylightcolor;
+				margin: 2px;
+				padding: 5px 10px;
+				display: inline-block;
+				@include rounded(4px);
+				font-weight: 700;
+			}
+			&:hover {
+				background: $primarycolor;
+				color: #fff;
+			}
+		}
+		span {
+			&.current {
+				background: $primarycolor;
+				color: #fff;
+				display: inline-block;
+				padding: 5px 10px;							
+				@include rounded(4px);
+			}
+		}
+	}
 }
 
 
@@ -109,23 +174,22 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 /* special typography */
 
 .button {
+	@include rounded(2px);	
+	text-transform: uppercase;
+	background: $primarycolor;
+	color:#fff;
+	padding: 7px 15px;
 	position: relative;
+	border:none;
 	top: 0;
 	left: 0;
 	vertical-align: middle;
 	margin: 0;
-	padding: 10px 15px;
 	line-height: 100%;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
 	cursor: pointer;
 	width: auto;
 	overflow: visible;
 	font-weight: normal;
-	font-size: 14px;
-	text-shadow: 0 1px 0 #fff;
-	color: #666;
 	text-decoration: none;
 	vertical-align: middle;
 	-webkit-box-sizing: border-box;
@@ -133,22 +197,7 @@ a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
 	box-sizing: border-box;
 	display: inline-block;
 	zoom: 1;
-	border: 1px solid #ccc;
-	background: $primarycolor;
-	&.medium {
-		padding: 5px 10px;
-	}
-	&.small {
-		padding: 2px 5px;
-	}
 	&:hover {
-		background: #ccc;
-	}
-	&.dark {
-		background: $primarycolor;
-		color: #ccc;
-		&:hover {
-			background: #444;
-		}
+		background: $secondarycolor;
 	}
 }
