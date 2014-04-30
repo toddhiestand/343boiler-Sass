@@ -1,5 +1,31 @@
 <?php
 
+// BRANDING
+
+// Add custom branding to the footer of the admin
+ 
+function modify_footer_admin () {
+  echo 'Created by <a href="http://www.343design.com">343design</a>.';
+}
+
+add_filter('admin_footer_text', 'modify_footer_admin');
+
+// LOGIN STYLE
+function custom_login() { 
+echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/lib/login.css" />'; 
+}
+add_action('login_head', 'custom_login');
+
+// spam & delete links for all versions of wordpress
+ function delete_comment_link($id) {
+     if (current_user_can('edit_post')) {
+         echo '| <a href="'.get_bloginfo('wpurl').'/wp-admin/comment.php?action=cdc&c='.$id.'">del</a> ';
+         echo '| <a href="'.get_bloginfo('wpurl').'/wp-admin/comment.php?action=cdc&dt=spam&c='.$id.'">spam</a>';
+     }
+ }
+
+// EDITOR AND APPEARANCE
+
 // Add us some fancy menus
 
 function register_my_menus() {
@@ -16,25 +42,9 @@ add_action( 'init', 'register_my_menus' );
  * Show Kitchen Sink in WYSIWYG Editor
  */
 function mb_unhide_kitchensink($args) {
-	$args['wordpress_adv_hidden'] = false;
-	return $args;
+  $args['wordpress_adv_hidden'] = false;
+  return $args;
 }
-
-
-// LOGIN STYLE
-function custom_login() { 
-echo '<link rel="stylesheet" type="text/css" href="'.get_bloginfo('template_directory').'/lib/login.css" />'; 
-}
-add_action('login_head', 'custom_login');
-
-
-// spam & delete links for all versions of wordpress
- function delete_comment_link($id) {
-     if (current_user_can('edit_post')) {
-         echo '| <a href="'.get_bloginfo('wpurl').'/wp-admin/comment.php?action=cdc&c='.$id.'">del</a> ';
-         echo '| <a href="'.get_bloginfo('wpurl').'/wp-admin/comment.php?action=cdc&dt=spam&c='.$id.'">spam</a>';
-     }
- }
 
  // remove dumb admin fields
 
@@ -108,45 +118,6 @@ function my_custom_dashboard_widgets() {
  function custom_dashboard_help() {
   echo '<p>If you need help or support for your website, please contact 343design at <a href="mailto:todd@343design.com">todd@343design.com</a></p>';
  }
-
-// Add custom branding to the footer of the admin
- 
-function modify_footer_admin () {
-  echo 'Created by <a href="http://www.343design.com">343design</a>.';
-}
-
-add_filter('admin_footer_text', 'modify_footer_admin');
-
-/**
- * Customize Admin Bar Items
- * @since 1.0.0
- * @link http://wp-snippets.com/addremove-wp-admin-bar-links/
- */
-function be_admin_bar_items() {
-  global $wp_admin_bar;
-  $wp_admin_bar->remove_menu( 'new-link', 'new-content' );
-}
-add_action( 'wp_before_admin_bar_render', 'be_admin_bar_items' );
-
-/**
- * Customize Menu Order
- * @since 1.0.0
- *
- * @param array $menu_ord. Current order.
- * @return array $menu_ord. New order.
- *
- */
-function be_custom_menu_order( $menu_ord ) {
-  if ( !$menu_ord ) return true;
-  return array(
-    'index.php', // this represents the dashboard link
-
-    );
-}
-
-add_filter( 'custom_menu_order', 'be_custom_menu_order' );
-add_filter( 'menu_order', 'be_custom_menu_order' );
-
 
 // Remove unnecessary items from the admin bar
 function gist_custom_admin_bar_remove() {
