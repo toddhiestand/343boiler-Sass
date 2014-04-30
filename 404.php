@@ -1,6 +1,6 @@
 <?php get_header() ?>
 	<?php get_template_part( 'head'); ?>
-	<div  class="wide-container">
+	<div class="wide-container">
 		<div class="container">
 			<div class="row">
 				<div class="page-content col span_16 clr">
