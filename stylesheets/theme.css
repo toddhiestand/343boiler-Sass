@@ -50,11 +50,11 @@ input#search {
 /* Page Layout */
 .wide-container {
   width: 100%;
-  background: #fff; }
+  background: white; }
   .wide-container.header-wide {
-    background: #eeeeee; }
+    background: white; }
   .wide-container.footer-wide {
-    background: #eeeeee; }
+    background: white; }
   .wide-container.parasample {
     background: url(../images/paralax-sample.jpg);
     padding: 40px 0; }
@@ -125,9 +125,11 @@ input#search {
 .page-content p {
   margin: .7em 0; }
 .page-content ul li {
-  list-style: decimal; }
+  list-style: disc;
+  padding: 0 15px; }
 .page-content ol li {
-  list-style: decimal; }
+  list-style: decimal;
+  padding: 0 15px; }
 
 /* wordpress image styles */
 img.alignright {

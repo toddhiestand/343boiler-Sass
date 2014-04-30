@@ -51,12 +51,12 @@ input#search {
 
 .wide-container {
 	width: 100%;
-	background: #fff;
+	background: $canvascolor;
 	&.header-wide {
-		background: $primarylightcolor;
+		background: $canvascolor;
 	}
 	&.footer-wide {
-		background: $primarylightcolor;
+		background: $canvascolor;
 	}
 	&.parasample {
 		background: url(../images/paralax-sample.jpg);
@@ -152,12 +152,14 @@ input#search {
 	}
 	ul {
 		li {
-			list-style: decimal;			
+			list-style: disc;
+			padding: 0 15px;			
 		}
 	}
 	ol {
 		li {
-			list-style: decimal;			
+			list-style: decimal;
+			padding: 0 15px;						
 		}
 	}	
 }
