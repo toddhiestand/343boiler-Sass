@@ -16,7 +16,7 @@
      'not_found' =>  'No Entries found',
      'not_found_in_trash' => 'No Entries found in trash',
      'parent_item_colon' => '',
-     'menu_name' => 'Entries'
+     'menu_name' => 'Sample Entries'
    );
   
    $args = array(
