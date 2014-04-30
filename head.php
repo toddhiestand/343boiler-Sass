@@ -3,7 +3,17 @@
 <body <?php body_class(); ?>>
 
 <div class="wide-container header-wide">
-	<div class="container row">
+	<div class="container">
+		<div class="row nopadrow">
+			<div class="utility-menu">
+				<?php wp_nav_menu( array( 'theme_location' => 'utility-menu' ) ); ?>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="wide-container header-wide">
+	<div class="container">
 		<div class="row">
 			<div class="siteid col span_8">
 				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
