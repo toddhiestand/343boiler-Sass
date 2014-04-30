@@ -5,7 +5,7 @@
 <div class="wide-container">
 	<div class="container">
 		<div class="row">
-			<div class="page-content col span_16 clr">
+			<article class="page-content col span_16 clr">
 				<header>
 					<h1><?php the_title(); ?></h1>
 				</header>
@@ -27,7 +27,7 @@
 					<?php _e('Sorry, no posts matched your criteria.'); ?>
 					<?php endif; ?>
 
-			</div>
+			</article>
 			<?php get_sidebar()?>
 		</div><!-- end row-->
 	</div> <!-- end container--> 
