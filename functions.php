@@ -71,7 +71,7 @@ add_action('wp_enqueue_scripts', 'boiler_enqueue_scripts');
        return 85;
    }
    function wpe_excerptmore($more) {
-       return '...<p><a class="btn more" href="'. get_permalink($post->ID) . '">' . 'Read More &rarr;' . '</a></p>';
+       return '...<p><a class="more" href="'. get_permalink($post->ID) . '">' . 'Read More &rarr;' . '</a></p>';
    }
 
    function wpe_excerpt($length_callback='', $more_callback='') {
@@ -101,10 +101,7 @@ add_action('wp_enqueue_scripts', 'boiler_enqueue_scripts');
 
  }
 
-
-
-
- // Get rid of those self-pings
+ // Get rid of self-pings
  function no_self_ping( &$links ) {
      $home = get_option( 'home' );
      foreach ( $links as $l => $link )
@@ -113,13 +110,11 @@ add_action('wp_enqueue_scripts', 'boiler_enqueue_scripts');
  }
  add_action( 'pre_ping', 'no_self_ping' );
 
-
-
 // Add some helpful styles to the backend
 function gist_custom_admin_styles() {
    echo '<style type="text/css">
       #wp-admin-bar-site-name > .ab-item {
-        background: transparent url(/site/wp-content/themes/343boiler/logo.png) 4px 3px no-repeat !important;
+        background: transparent url(/wp-content/themes/343boiler/logo.png) 4px 3px no-repeat !important;
         height: 20px;
         width: 8px;
         margin-top: 4px;
@@ -139,7 +134,7 @@ if ( is_user_logged_in() ) {
   add_action('wp_head', 'gist_custom_admin_styles');
 }
 
-// LETS CREAT A FUNCTIN FOR THE SUBNAV
+// LETS CREAT A FUNCTION FOR THE SUBNAV
 if(!function_exists('get_post_top_ancestor_id')){
 /**
  * Gets the id of the topmost ancestor of the current page. Returns the current
