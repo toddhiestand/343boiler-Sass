@@ -14,6 +14,14 @@ register_sidebar(array(
 
 if ( function_exists('register_sidebar') ) 
     register_sidebar(array(
+    'name' => 'SecondarySidebar',
+    'description' => __(''),
+    'before_widget' => '<div id="%1$s" class="sidebar-section">',
+    'after_widget' => '</div>',
+    )); 
+
+if ( function_exists('register_sidebar') ) 
+    register_sidebar(array(
     'name' => 'Footer',
     'description' => __(''),
     'before_widget' => '<div id="address" class="section">',
