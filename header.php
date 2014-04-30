@@ -21,6 +21,9 @@
 		<!-- This is the theme's responsive framework stylesheet, delete it at your own peril! -->
 		<link href="<?php bloginfo('template_directory'); ?>/css/responsive-gs-24col.css" rel="stylesheet" type="text/css" />
 
+		<!-- theme.js -->
+		<script type='text/javascript' src='<?php bloginfo('template_directory'); ?>/js/theme.js'></script>
+
 		<!-- add open graph -->
 		<?php if (have_posts()):while(have_posts()):the_post(); endwhile; endif;?>
 
