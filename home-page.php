@@ -2,22 +2,9 @@
 /*
 Template Name: Home Page
 */
-?>
-
-<?php get_header() ?>
+get_header() ?>
 	
 <?php get_template_part( 'head'); ?>
-
-<div class="wide-container">
-	<div class="container">
-		<div class="row">
-			<div class="col span_10 centered">
-				<h1>A little paralax loving</h1>
-				<p>Lorem ipsum dolor sit amet, mea an sonet melius phaedrum, viderer euismod eu quo. Ea sit quod eros nulla, ei est dolore sapientem, qualisque corrumpit ex mel.</p>
-			</div>
-		</div>
-	</div>
-</div>
 
 <div class="wide-container">
 	<div class="container">
@@ -38,3 +25,23 @@ Template Name: Home Page
 </div>
 
 <?php get_footer() ?>
+
+<!-- some js we might use
+<script>
+	$(function(){
+		$.stellar({
+			horizontalScrolling: false,
+			verticalOffset: 200
+		});
+	});
+
+	 $('.slider-name').bxSlider({
+		  pagerCustom: '.bx-pager-name',
+		  minSlides: 1,
+		  maxSlides: 1,
+		  moveSlides: 0,
+		  slideWidth: 0
+	 }); 
+
+</script>
+-->

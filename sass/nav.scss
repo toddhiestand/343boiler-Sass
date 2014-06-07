@@ -1,0 +1,30 @@
+@import "variables.scss";
+
+.nav {
+	position: relative;
+	margin: 20px 0;
+	ul {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+		li {
+			margin: 0;
+			padding: 0 5px 10px 0;
+			list-style: none;
+			display: inline-block;
+			a {
+				padding: 3px 12px;
+				text-decoration: none;
+				line-height: 100%;
+				&:hover {
+					background: #ccc;
+				}
+			}
+			&.current {
+				a {
+					background: #ccc;
+				}
+			}	
+		}
+	}
+}

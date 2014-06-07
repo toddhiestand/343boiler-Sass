@@ -1,32 +1,5 @@
 @import "variables.scss";
 
-a {
-	color: $primarycolor;
-	&:hover {
-		color: $primarycolor;
-	}
-}
-
-h1, h2,h3,h4,h5,h6 {
-	font-weight: bold;
-}
-
-h1 {font-size: 2em ;}
-h2 {font-size: 1.8em;}
-h3 {font-size: 1.6em;}
-h4 {font-size: 1.4em;}
-h5 {font-size: 1.2em;}
-h6 {font-size: 1em;}
-
-fieldset{ 
-	border:none;
-}
-
-input#search {
-	width: 100%;
-	margin-bottom: 10px;
-}
-
 .pin {
   width: 100%;
   z-index: 999999;
@@ -46,7 +19,6 @@ input#search {
 	}
 }
 
-
 /* Page Layout */
 
 .wide-container {
@@ -57,91 +29,7 @@ input#search {
 	}
 	&.footer-wide {
 		background: $canvascolor;
-	}
-	&.parasample {
-		background: url(../images/paralax-sample.jpg);
-		padding: 40px 0;
-	}
-	&.parallax {
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-		position: relative;
-		background-attachment: fixed;
-	}
-	
-}
-
-.pagination {
-	float:left;
-	width: 100%;
-	ul {
-		list-style: none;
-		margin: 2em auto;
-		padding: 0;
-		text-align: center;
-		color: #555555;
-		font-size: 90%;
-		li {
-			display: inline;
-		}
-		a {
-			&.page-numbers {
-				background-color: $primarylightcolor;
-				margin: 2px;
-				padding: 5px 10px;
-				display: inline-block;
-				@include rounded(4px);
-				font-weight: 700;
-			}
-			&:hover {
-				background: $primarycolor;
-				color: #fff;
-			}
-		}
-		span {
-			&.current {
-				background: $primarycolor;
-				color: #fff;
-				display: inline-block;
-				padding: 5px 10px;							
-				@include rounded(4px);
-			}
-		}
-	}
-}
-
-
-/* Nav */
-
-.nav {
-	position: relative;
-	margin: 20px 0;
-	ul {
-		margin: 0;
-		padding: 0;
-		text-align: center;
-		li {
-			margin: 0;
-			padding: 0 5px 10px 0;
-			list-style: none;
-			display: inline-block;
-			a {
-				padding: 3px 12px;
-				text-decoration: none;
-				line-height: 100%;
-				&:hover {
-					background: #ccc;
-				}
-			}
-			&.current {
-				a {
-					background: #ccc;
-				}
-			}	
-		}
-	}
+	}	
 }
 
 /*  page layout */
@@ -164,42 +52,3 @@ input#search {
 	}	
 }
 
-/* wordpress image styles */
-
-img.alignright {float:right; margin:0 0 1em 1em}
-img.alignleft {float:left; margin:0 1em 1em 0}
-img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-a img.alignright {float:right; margin:0 0 1em 1em}
-a img.alignleft {float:left; margin:0 1em 1em 0}
-a img.aligncenter {display: block; margin-left: auto; margin-right: auto}
-
-/* special typography */
-
-.button {
-	@include rounded(2px);	
-	text-transform: uppercase;
-	background: $primarycolor;
-	color:#fff;
-	padding: 7px 15px;
-	position: relative;
-	border:none;
-	top: 0;
-	left: 0;
-	vertical-align: middle;
-	margin: 0;
-	line-height: 100%;
-	cursor: pointer;
-	width: auto;
-	overflow: visible;
-	font-weight: normal;
-	text-decoration: none;
-	vertical-align: middle;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	display: inline-block;
-	zoom: 1;
-	&:hover {
-		background: $secondarycolor;
-	}
-}

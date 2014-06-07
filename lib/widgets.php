@@ -5,7 +5,8 @@
 if ( function_exists('register_sidebar') ) {
 register_sidebar(array(
 	'name' => 'Sidebar',
-	'description' => __('This is the sidebar. Feel free to add as many widgets as you want.'),
+    'id' => 'Sidebar',
+	'description' => __('Blog / Articles Sidebars'),
 	'before_widget' => '<div id="%1$s" class="sidebar-section">',
 	'after_widget' => '</div>',
     'before_title' => '<h3>',
@@ -14,19 +15,13 @@ register_sidebar(array(
 
 if ( function_exists('register_sidebar') ) 
     register_sidebar(array(
-    'name' => 'SecondarySidebar',
-    'description' => __(''),
+    'name' => 'Page Sidebar',
+    'id' => 'page-sidebar',
+    'description' => __('Sidebar for static pages'),
     'before_widget' => '<div id="%1$s" class="sidebar-section">',
     'after_widget' => '</div>',
     )); 
 
-if ( function_exists('register_sidebar') ) 
-    register_sidebar(array(
-    'name' => 'Footer',
-    'description' => __(''),
-    'before_widget' => '<div id="address" class="section">',
-    'after_widget' => '</div>',
-    ));        
    }
 
 ?>
