@@ -16,10 +16,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 		<!-- This is the theme's stylesheet, delete it at your own peril! -->
-		<link href="<?php bloginfo('template_directory'); ?>/stylesheets/theme.css" rel="stylesheet" type="text/css" />
-
-		<!-- This is the theme's responsive framework stylesheet, delete it at your own peril! -->
-		<link href="<?php bloginfo('template_directory'); ?>/css/responsive-gs-24col.css" rel="stylesheet" type="text/css" />
+		<link href="<?php bloginfo('template_directory'); ?>/style.css" rel="stylesheet" type="text/css" />
 
 		<!-- theme.js -->
 		<script type='text/javascript' src='<?php bloginfo('template_directory'); ?>/js/theme.js'></script>
