@@ -22,11 +22,15 @@
 .wide-container {
 	width: 100%;
 	background: $canvascolor;
+	&.id-wide {
+		background: $primarycolor;
+	}
 	&.header-wide {
 		background: $canvascolor;
+		margin-top: -5px;
 	}
 	&.footer-wide {
-		background: $canvascolor;
+		background: $primarylightcolor;
 	}	
 }
 

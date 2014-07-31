@@ -18,36 +18,38 @@ function boiler_enqueue_scripts() {
   // register some of our custom styles
       wp_register_style( 'ss-pika', get_template_directory_uri() . '/fonts/symbolset/ss-pika.css', array(), '', 'all' );
       wp_register_style( 'ss-social', get_template_directory_uri() . '/fonts/ss-social-circle/ss-social-circle.css', array(), '', 'all' );
-      // wp_register_style( 'bscss', get_template_directory_uri() . '/css/jquery.bxslider.css', array(), '', 'all' );
+      wp_register_style( 'fonts', get_template_directory_uri() . '/fonts/webfonts.css', array(), '', 'all' );
+      wp_register_style( 'bxcss', get_template_directory_uri() . '/css/jquery.bxslider.css', array(), '', 'all' );
       // wp_register_style( 'pushycss', get_template_directory_uri() . '/stylesheets/pushy.css', array(), '', 'all' );
       //wp_register_style( 'tabscss', get_template_directory_uri() . '/stylesheets/easy-responsive-tabs.css', array(), '', 'all' );
 
    // register da scripts
       wp_deregister_script('jquery');
-      wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js', false, '1.8.3');
+      wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js', false, '1.10.1');
       wp_register_script( 'modernizer', get_template_directory_uri() . '/js/modernizr-2.6.2.min.js', array(), true );
-      wp_register_script( '343theme', get_template_directory_uri() . '/js/theme.js', array(), true );
+      wp_register_script( 'themejs', get_template_directory_uri() . '/js/theme.js', array(), true );
       // wp_register_script( 'pushy', get_template_directory_uri() . '/js/pushy.js', array(), true,'1.0',true,true );
       // wp_register_script( 'stellar', get_template_directory_uri() . '/js/jquery.stellar.js', array(), true,true );
-      // wp_register_script( 'bxjs', get_template_directory_uri() . '/js/jquery.bxslider.js', array(), true,true );
+      wp_register_script( 'bxjs', get_template_directory_uri() . '/js/jquery.bxslider.js', array(), true,true );
       //wp_register_script( 'selects', get_template_directory_uri() . '/js/jquery.customSelect.min.js', array(), true,true );
       // wp_register_script( 'tabs', get_template_directory_uri() . '/js/easyResponsiveTabs.js', array(), true,true );
 
    // enqueue da styles
       wp_enqueue_style('ss-pika');
       wp_enqueue_style('ss-social');
-      // wp_enqueue_style('bscss');
+      wp_enqueue_style('fonts');
+      wp_enqueue_style('bxcss');
       // wp_enqueue_style('pushycss');
       // wp_enqueue_style('tabscss');
 
    // enqueue da scripts
       wp_enqueue_script( 'jquery' );
       wp_enqueue_script( 'modernizer' );
-      wp_enqueue_script( '343theme' );
+      wp_enqueue_script( 'themejs' );
       // wp_enqueue_script( 'pushy' );
       // wp_enqueue_script( 'stellar' );
       // wp_enqueue_script( 'slides' );
-      // wp_enqueue_script( 'bxjs' );
+      wp_enqueue_script( 'bxjs' );
       // wp_enqueue_script( 'selects' );
       // wp_enqueue_script( 'tabs' );
 
@@ -71,7 +73,7 @@ add_action('wp_enqueue_scripts', 'boiler_enqueue_scripts');
        return 85;
    }
    function wpe_excerptmore($more) {
-       return '...<p><a class="more" href="'. get_permalink($post->ID) . '">' . 'Read More &rarr;' . '</a></p>';
+       return '...<p><a class="button" href="'. get_permalink($post->ID) . '">' . 'Read More &rarr;' . '</a></p>';
    }
 
    function wpe_excerpt($length_callback='', $more_callback='') {
@@ -97,8 +99,10 @@ add_action('wp_enqueue_scripts', 'boiler_enqueue_scripts');
  // additional image sizes
  // delete the next line if you do not need additional image sizes
  add_image_size( 'image-small', 150, 9999 ); //300 pixels wide (and unlimited height)
+ add_image_size( 'image-medium', 200, 200, true ); //300 pixels wide (and unlimited height)
  add_image_size( 'image-single', 300, 9999 ); //300 pixels wide (and unlimited height)
-
+ add_image_size( 'image-circle', 300, 9999 ); //300 pixels wide (and unlimited height)
+ add_image_size( 'download-image', 150, 150, true ); //300 pixels wide (and unlimited height)
  }
 
  // Get rid of self-pings
@@ -111,28 +115,6 @@ add_action('wp_enqueue_scripts', 'boiler_enqueue_scripts');
  add_action( 'pre_ping', 'no_self_ping' );
 
 // Add some helpful styles to the backend
-function gist_custom_admin_styles() {
-   echo '<style type="text/css">
-      #wp-admin-bar-site-name > .ab-item {
-        background: transparent url(/wp-content/themes/343boiler/logo.png) 4px 3px no-repeat !important;
-        height: 20px;
-        width: 8px;
-        margin-top: 4px;
-        text-indent: -999em;
-      }
-      #wp-admin-bar-site-name.hover > .ab-item {
-        background-color: white !important;
-        background-position: 4px -25px !important;
-      }
-      .status-draft { opacity: .5; -webkit-transition: opacity 1s; -moz-transition: opacity 1s; transition: opacity 1s }
-      .status-draft:hover { opacity: 1; -webkit-transition: opacity .3s; -moz-transition: opacity .3s; transition: opacity .3s }
-      .field-expanded input { width: 100%; }
-         </style>';
-}
-if ( is_user_logged_in() ) {
-  add_action('admin_head', 'gist_custom_admin_styles'); // Logo in admin bar
-  add_action('wp_head', 'gist_custom_admin_styles');
-}
 
 // LETS CREAT A FUNCTION FOR THE SUBNAV
 if(!function_exists('get_post_top_ancestor_id')){

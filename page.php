@@ -1,14 +1,13 @@
-<?php get_header() ?>
-	
-	<?php get_template_part( 'head'); ?>
-
+<?php 
+	get_header();
+	get_template_part( 'head');
+	get_template_part( 'inc/title-head'); 
+?>
+		
 	<div class="wide-container">
 		<div class="container">
 			<div class="row">
-				<div class="page-content col span_16">
-					<header>
-						<h1><?php the_title(); ?></h1>
-					</header>
+				<div class="page-content col span_18">
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 					<?php the_content('Read the rest of this entry &raquo;'); ?>
 					<?php endwhile; else: ?>

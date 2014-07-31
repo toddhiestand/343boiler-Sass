@@ -5,7 +5,7 @@
 // Add custom branding to the footer of the admin
  
 function modify_footer_admin () {
-  echo 'Created by <a href="http://www.343design.com">343design</a>.';
+  echo 'Created by <a href="http://www.purecharity.com">Pure Charity</a>.';
 }
 
 add_filter('admin_footer_text', 'modify_footer_admin');
@@ -32,7 +32,7 @@ function register_my_menus() {
   register_nav_menus(
     array(
       'main-menu' => __( 'Main Menu' ),
-      'utility-menu' => __( 'Utility Menu' )      
+      'footer-menu' => __( 'Footer Menu' )      
     )
   );
 }
@@ -116,7 +116,7 @@ function my_custom_dashboard_widgets() {
   }
  
  function custom_dashboard_help() {
-  echo '<p>If you need help or support for your website, please contact 343design at <a href="mailto:todd@343design.com">todd@343design.com</a></p>';
+  echo '<p>If you need help or support for your website, please contact Pure Charity at <a href="mailto:todd@purecharity.com">todd@purecharity.com</a></p>';
  }
 
 // Remove unnecessary items from the admin bar

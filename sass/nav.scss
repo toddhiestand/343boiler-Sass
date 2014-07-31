@@ -1,26 +1,44 @@
 .nav {
 	position: relative;
 	margin: 20px 0;
+	font-family: $primaryfont;
+	text-transform: uppercase;
+	@include font-size(8);
 	ul {
-		margin: 0;
+		margin: 30px 0 0 0;
 		padding: 0;
 		text-align: center;
 		li {
 			margin: 0;
-			padding: 0 5px 10px 0;
+			padding:0;
 			list-style: none;
 			display: inline-block;
+			line-height: 100%;
 			a {
-				padding: 3px 12px;
+				padding: 6px 10px;
 				text-decoration: none;
 				line-height: 100%;
+				@include rounded(3px);
+				color: $secondarycolor;
 				&:hover {
-					background: #ccc;
+					background: $secondarycolor;
+					color: #fff;
+				}
+
+			}
+			&.on {
+				a {
+					background: $secondarycolor;
+					color: #fff;
+					&:hover {
+						background: $primarycolor;
+						color: $secondarycolor;
+					}
 				}
 			}
 			&.current {
 				a {
-					background: #ccc;
+					background: $primarylightcolor;
 				}
 			}	
 		}

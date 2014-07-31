@@ -1,10 +1,10 @@
 /*  
-Theme Name: 343-boiler
-Theme URI: http://www.343design.com
-Description: Created by 343design
-Version: 2.3
+Theme Name: the Movement Club
+Theme URI: http://www.movementclub.org
+Description: Created by Pure Charity
+Version: 1.0
 Author: Todd Hiestand
-Author URI: http://www.343design.com/
+Author URI: http://www.purecharity.com/
 */
 
 @import "sass/variables.scss";
@@ -12,6 +12,8 @@ Author URI: http://www.343design.com/
 @import "sass/fonts.scss";
 
 @import "sass/format.scss";
+
+@import "sass/gravity-forms.scss";
 
 @import "sass/forms.scss";
 
@@ -28,3 +30,5 @@ Author URI: http://www.343design.com/
 @import "sass/responsive-gs-24col.scss";
 
 @import "sass/theme.scss";
+
+@import "sass/mobile.scss";
