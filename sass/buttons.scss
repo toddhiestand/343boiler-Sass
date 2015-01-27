@@ -3,10 +3,16 @@
 
 a.button {
 	@include rounded(3px);	
+<<<<<<< HEAD
 	font-size: 1em;
+=======
+	@include font-size(8);
+	font-family: $boldfont;
+	line-height:100%;
+>>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
 	background: $primarycolor;
 	color:#fff;
-	padding: 7px 15px;
+	padding: 10px 15px 7px 15px;
 	position: relative;
 	border:none;
 	top: 0;

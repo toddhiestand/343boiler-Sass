@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p, pre, blockquote, dl, address{
 }
 
 h1, h2,h3,h4,h5,h6 {
-	font-weight: bold;
+	font-family: $boldfont;
 }
 
 h1 {font-size: 2em ;}
@@ -27,7 +27,11 @@ body {
 	font-family: $primaryfont;
 	font-style: normal;
 	font-weight: $primaryfontweight;
+<<<<<<< HEAD
 	color: #333;
+=======
+	color: #444;
+>>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
 	background: $secondarycolor;
 	-webkit-font-smoothing: antialiased;
 }

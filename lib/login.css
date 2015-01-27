@@ -1,32 +1,38 @@
+#login {
+  margin-top: 20px;
+  padding-top: 2%;
+}
+
 
 #login h1 a {
   background: url(../images/login-image.png) no-repeat top center;
   /* make sure to replace this! */
-  width: 326px;
-  height: 67px;
+  width: 275px;
+  height: 117px;
   text-indent: -9999px;
   overflow: hidden;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   display: block; }
 
 #login form {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+text-align: center;;
   margin-left: 8px;
   padding: 26px 24px 46px;
   font-weight: normal;
   background: #FBFBFB;
   border: none;
-  -webkit-border-radius: 0px;
-  -khtml-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
+  -webkit-border-radius:3px;
+  -khtml-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   -webkit-box-shadow: none;
   -khtml-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; 
  }
 
-#login body form .input {
-  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+#login form .input {
   font-weight: 200;
   font-size: 24px;
   width: 97%;
@@ -34,11 +40,19 @@
   margin-top: 2px;
   margin-right: 6px;
   margin-bottom: 16px;
-  border: 1px solid #66000;
+  border: 1px solid #ddd;
   background: #fff;
   outline: none;
   -webkit-box-shadow: none;
   -khtml-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+ }
+
+.wp-core-ui .button-primary {
+  background: #3261AD !important;
+ }
+
+ a:hover {
+    color: #3261AD !important;
  }

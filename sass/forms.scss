@@ -2,7 +2,97 @@ fieldset{
 	border:none;
 }
 
-input#search {
-	width: 100%;
-	margin-bottom: 10px;
+form.headSearch {
+	padding: 14px;
+	background: $primarylightcolor;
+	@include rounded (4px);
+	input {
+		border: none;
+		line-height: 100%;
+		padding: 6px 4px 0 4px;
+		text-transform: uppercase;
+		height: 20px;
+		@include font-size(6);
+		&.search-submit {
+			@include rounded (4px);
+			@include font-size(6);
+			margin-top: 5px;
+		}
+	}
+}
+
+// form styles for the Lead Trip module on front page; override the Gravity Forms Settings
+.emailForm {
+	.gform_wrapper ul li.gfield {
+			clear:none !important;
+		}
+	.gform_body {
+		margin-top: 40px;
+		li {
+			float: left !important;
+			list-style: none !important;
+			margin-right: 20px !important;
+		}
+		label {
+			display: none !important ;
+		}
+		input {
+			width: 400px !important;
+			@include font-size(12);
+		}
+	}
+	.gform_footer {
+		float: left !important;
+		clear: none !important;
+		margin-top: -17px !important;
+		input[type="submit"] {
+			margin-top: 0px !important;
+		@include rounded(3px);	
+		@include font-size(8);
+		font-family: $boldfont;
+		line-height:100%;
+		background: $primarycolor;
+		color:#fff;
+		padding: 15px 15px 10px 15px;
+		position: relative;
+		border:none;
+		top: 0;
+		left: 0;
+		vertical-align: middle;
+		margin: 0;
+		line-height: 100%;
+		cursor: pointer;
+		width: auto;
+		overflow: visible;
+		font-weight: normal;
+		text-decoration: none;
+		vertical-align: middle;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		display: inline-block;
+		zoom: 1;
+		}
+	}
+}
+
+
+#respond {
+	input {
+		border: 1px solid $bordercolor;
+		&#submit {
+			@include font-size(8);
+			@include rounded(4px);
+			font-family: $boldfont;
+			line-height: 100%;
+			padding: 13px 10px 10px;
+			background: $primarycolor;
+			border: none;
+		}
+	}
+	textarea {
+		border: 1px solid $bordercolor;
+		width: 100%;
+	}
+
 }
