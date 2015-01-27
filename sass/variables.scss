@@ -6,7 +6,7 @@ $primarybuttoncolor: #EEEEEE;
 // colors
 
 $primarycolor:#0099cc;
-$secondarycolor: #6600cc;
+$secondarycolor: #ccc;
 $primarylightcolor: #EEEEEE;
 $canvascolor: #fff;
 
@@ -22,11 +22,24 @@ $outsetshadow: 0px -3px 4px 1px rgba(0, 0, 0, .2);
 
 // mixins
 
+@mixin font-size($sizeValue: 12 ){
+  font-size: $sizeValue + px; //fallback for old browsers
+  font-size: (0.125 * $sizeValue) + rem;
+}
+// usage:  @include font-size(16);
+
+@mixin line-height($heightValue: 12 ){
+	line-height: $heightValue + px; //fallback for old browsers
+	line-height: (0.125 * $heightValue) + rem;
+}
+// usage:  @include line-height (16);
+
 @mixin rounded($radius) {
 	-webkit-border-radius: $radius;
 	-moz-border-radius: $radius;
 	border-radius: $radius;
 }
+//  @include rounded(3px);	
 
 @mixin trans($transition) {
 	-webkit-transition: background $transition ease-in-out;
@@ -35,3 +48,11 @@ $outsetshadow: 0px -3px 4px 1px rgba(0, 0, 0, .2);
 	-o-transition: background $transition ease-in-out;
 	transition: background $transition ease-in-out;
 }
+// usage: @include trans(.3s);
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); //IE8
+}
+// usage:  @include opacity(0.8);

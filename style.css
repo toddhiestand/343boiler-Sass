@@ -12,25 +12,52 @@ a { color: #0099cc; }
 a:hover { color: #0099cc; }
 
 /* line 8, sass/fonts.scss */
-h1, h2, h3, h4, h5, h6 { font-weight: bold; }
-
-/* line 12, sass/fonts.scss */
-h1 { font-size: 2em; }
-
-/* line 13, sass/fonts.scss */
-h2 { font-size: 1.8em; }
+h1, h2, h3, h4, h5, h6, p, pre, blockquote, dl, address { margin: .7em 0; padding: 0; line-height: 163%; }
 
 /* line 14, sass/fonts.scss */
+h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+
+/* line 18, sass/fonts.scss */
+h1 { font-size: 2em; }
+
+/* line 19, sass/fonts.scss */
+h2 { font-size: 1.8em; }
+
+/* line 20, sass/fonts.scss */
 h3 { font-size: 1.6em; }
 
-/* line 15, sass/fonts.scss */
+/* line 21, sass/fonts.scss */
 h4 { font-size: 1.4em; }
 
-/* line 16, sass/fonts.scss */
+/* line 22, sass/fonts.scss */
 h5 { font-size: 1.2em; }
 
-/* line 17, sass/fonts.scss */
+/* line 23, sass/fonts.scss */
 h6 { font-size: 1em; }
+
+/* line 25, sass/fonts.scss */
+body { margin: 0 auto; padding: 0; font-family: "proxima-nova", sans-serif; font-style: normal; font-weight: 400; color: #333; background: #cccccc; -webkit-font-smoothing: antialiased; }
+
+/* line 35, sass/fonts.scss */
+blockquote { padding: 2px 20px; margin: 5px 30px; border-left: 1px dotted #ccc; }
+
+/* line 41, sass/fonts.scss */
+a { color: #0099cc; text-decoration: none; }
+
+/* line 42, sass/fonts.scss */
+a:hover { color: #cccccc; }
+
+/* line 44, sass/fonts.scss */
+em, i { font-style: italic; }
+
+/* line 45, sass/fonts.scss */
+strong, b { font-weight: 700; }
+
+/* line 47, sass/fonts.scss */
+ul { margin: 0; padding: 0; }
+
+/* line 53, sass/fonts.scss */
+.page-content ul, .page-content ol { margin-left: 30px; }
 
 /* line 1, sass/format.scss */
 .pin { width: 100%; z-index: 999999; }
@@ -258,9 +285,15 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* special typography */
 /* line 4, sass/buttons.scss */
-.button { -webkit-border-radius: 2px; -moz-border-radius: 2px; border-radius: 2px; text-transform: uppercase; background: #0099cc; color: #fff; padding: 7px 15px; position: relative; border: none; top: 0; left: 0; vertical-align: middle; margin: 0; line-height: 100%; cursor: pointer; width: auto; overflow: visible; font-weight: normal; text-decoration: none; vertical-align: middle; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: inline-block; zoom: 1; }
+a.button { -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; font-size: 1em; background: #0099cc; color: #fff; padding: 7px 15px; position: relative; border: none; top: 0; left: 0; vertical-align: middle; margin: 0; line-height: 100%; cursor: pointer; width: auto; overflow: visible; font-weight: normal; text-decoration: none; vertical-align: middle; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; display: inline-block; zoom: 1; }
 /* line 28, sass/buttons.scss */
-.button:hover { background: #6600cc; }
+a.button.small { padding: 4px 10px; font-size: .8em; }
+/* line 32, sass/buttons.scss */
+a.button.medium { padding: 6px 12px; font-size: 1.1em; }
+/* line 36, sass/buttons.scss */
+a.button.large { padding: 12px 20px; font-size: 1.3em; }
+/* line 40, sass/buttons.scss */
+a.button:hover { background: #cccccc; }
 
 /* line 1, sass/pagination.scss */
 .pagination { float: left; width: 100%; }
@@ -301,68 +334,101 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 /* set according to preference*/
 /* line 35, sass/responsive-gs-24col.scss */
-.nopadrow { padding-top: 0; padding-bottom: 0; }
+.row.nopadrow { padding-top: 0; padding-bottom: 0; }
 
 /* set according to preference*/
-/* DEFAULT COLUMN STYLES */
+/* line 36, sass/responsive-gs-24col.scss */
+.row.nopadbottom { padding-bottom: 0; }
+
+/* line 37, sass/responsive-gs-24col.scss */
+.row.nopadtop { padding-top: 0; }
+
 /* line 39, sass/responsive-gs-24col.scss */
+.no-top-margin { margin-top: 0 !important; }
+
+/* line 40, sass/responsive-gs-24col.scss */
+.no-bottom-margin { margin-bottom: 0 !important; }
+
+/* line 41, sass/responsive-gs-24col.scss */
+.margin-top-20 { margin-top: 20px !important; }
+
+/* line 42, sass/responsive-gs-24col.scss */
+.margin-bottom-20 { margin-bottom: 20px !important; }
+
+/* line 43, sass/responsive-gs-24col.scss */
+.margin-top-40 { margin-top: 40px !important; }
+
+/* line 44, sass/responsive-gs-24col.scss */
+.no-padding-bottom { padding-bottom: 0 !important; }
+
+/* line 45, sass/responsive-gs-24col.scss */
+.no-padding-top { padding-top: 0 !important; }
+
+/* line 46, sass/responsive-gs-24col.scss */
+.alignRight { text-align: right; }
+
+/* line 47, sass/responsive-gs-24col.scss */
+.alignLeft { text-align: left; }
+
+/* DEFAULT COLUMN STYLES */
+/* line 50, sass/responsive-gs-24col.scss */
 .col { display: block; float: left; width: 100%; }
 
-@media (min-width: 768px) { /* line 46, sass/responsive-gs-24col.scss */
+@media (min-width: 768px) { /* line 57, sass/responsive-gs-24col.scss */
   .col { margin-left: 3%; } }
 /* RESET MARGINS */
-/* line 53, sass/responsive-gs-24col.scss */
+/* line 64, sass/responsive-gs-24col.scss */
 .col:first-child { margin-left: 0; }
 
 /* all browsers except IE6 and lower */
 /* COLUMN WIDTH ON DISPLAYS +768px */
-@media (min-width: 768px) { /* line 58, sass/responsive-gs-24col.scss */
+@media (min-width: 768px) { /* line 69, sass/responsive-gs-24col.scss */
   .span_1 { width: 1.25%; }
-  /* line 59, sass/responsive-gs-24col.scss */
-  .span_2 { width: 5.5%; }
-  /* line 60, sass/responsive-gs-24col.scss */
-  .span_3 { width: 9.75%; }
-  /* line 61, sass/responsive-gs-24col.scss */
-  .span_4 { width: 14.0%; }
-  /* line 62, sass/responsive-gs-24col.scss */
-  .span_5 { width: 18.25%; }
-  /* line 63, sass/responsive-gs-24col.scss */
-  .span_6 { width: 22.5%; }
-  /* line 64, sass/responsive-gs-24col.scss */
-  .span_7 { width: 26.75%; }
-  /* line 65, sass/responsive-gs-24col.scss */
-  .span_8 { width: 31.0%; }
-  /* line 66, sass/responsive-gs-24col.scss */
-  .span_9 { width: 35.25%; }
-  /* line 67, sass/responsive-gs-24col.scss */
-  .span_10 { width: 39.5%; }
-  /* line 68, sass/responsive-gs-24col.scss */
-  .span_11 { width: 43.75%; }
-  /* line 69, sass/responsive-gs-24col.scss */
-  .span_12 { width: 48.0%; }
   /* line 70, sass/responsive-gs-24col.scss */
-  .span_13 { width: 52.25%; }
+  .span_2 { width: 5.5%; }
   /* line 71, sass/responsive-gs-24col.scss */
-  .span_14 { width: 56.5%; }
+  .span_3 { width: 9.75%; }
   /* line 72, sass/responsive-gs-24col.scss */
-  .span_15 { width: 60.75%; }
+  .span_4 { width: 14.0%; }
   /* line 73, sass/responsive-gs-24col.scss */
-  .span_16 { width: 65.0%; }
+  .span_5 { width: 18.25%; }
   /* line 74, sass/responsive-gs-24col.scss */
-  .span_17 { width: 69.25%; }
+  .span_6 { width: 22.5%; }
   /* line 75, sass/responsive-gs-24col.scss */
-  .span_18 { width: 73.5%; }
+  .span_7 { width: 26.75%; }
   /* line 76, sass/responsive-gs-24col.scss */
-  .span_19 { width: 77.75%; }
+  .span_8 { width: 31.0%; }
   /* line 77, sass/responsive-gs-24col.scss */
-  .span_20 { width: 82.0%; }
+  .span_9 { width: 35.25%; }
   /* line 78, sass/responsive-gs-24col.scss */
-  .span_21 { width: 86.25%; }
+  .span_10 { width: 39.5%; }
   /* line 79, sass/responsive-gs-24col.scss */
-  .span_22 { width: 90.5%; }
+  .span_11 { width: 43.75%; }
   /* line 80, sass/responsive-gs-24col.scss */
-  .span_23 { width: 94.75%; }
+  .span_12 { width: 48.0%; }
   /* line 81, sass/responsive-gs-24col.scss */
+  .span_13 { width: 52.25%; }
+  /* line 82, sass/responsive-gs-24col.scss */
+  .span_14 { width: 56.5%; }
+  /* line 83, sass/responsive-gs-24col.scss */
+  .span_15 { width: 60.75%; }
+  /* line 84, sass/responsive-gs-24col.scss */
+  .span_16 { width: 65.0%; }
+  /* line 85, sass/responsive-gs-24col.scss */
+  .span_17 { width: 69.25%; }
+  /* line 86, sass/responsive-gs-24col.scss */
+  .span_18 { width: 73.5%; }
+  /* line 87, sass/responsive-gs-24col.scss */
+  .span_19 { width: 77.75%; }
+  /* line 88, sass/responsive-gs-24col.scss */
+  .span_20 { width: 82.0%; }
+  /* line 89, sass/responsive-gs-24col.scss */
+  .span_21 { width: 86.25%; }
+  /* line 90, sass/responsive-gs-24col.scss */
+  .span_22 { width: 90.5%; }
+  /* line 91, sass/responsive-gs-24col.scss */
+  .span_23 { width: 94.75%; }
+  /* line 92, sass/responsive-gs-24col.scss */
   .span_24 { width: 100%; } }
-/* line 84, sass/responsive-gs-24col.scss */
+/* line 95, sass/responsive-gs-24col.scss */
 .col.centered { position: relative; margin-left: auto; margin-right: auto; float: none !important; }

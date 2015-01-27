@@ -16,7 +16,7 @@ function boiler_enqueue_scripts() {
 // Register some often used Scripts
 
   // register some of our custom styles
-      wp_register_style( 'ss-pika', get_template_directory_uri() . '/fonts/symbolset/ss-pika.css', array(), '', 'all' );
+      //wp_register_style( 'ss-pika', get_template_directory_uri() . '/fonts/symbolset/ss-pika.css', array(), '', 'all' );
       wp_register_style( 'ss-social', get_template_directory_uri() . '/fonts/ss-social-circle/ss-social-circle.css', array(), '', 'all' );
       // wp_register_style( 'bscss', get_template_directory_uri() . '/css/jquery.bxslider.css', array(), '', 'all' );
       // wp_register_style( 'pushycss', get_template_directory_uri() . '/stylesheets/pushy.css', array(), '', 'all' );
@@ -34,7 +34,7 @@ function boiler_enqueue_scripts() {
       // wp_register_script( 'tabs', get_template_directory_uri() . '/js/easyResponsiveTabs.js', array(), true,true );
 
    // enqueue da styles
-      wp_enqueue_style('ss-pika');
+      //wp_enqueue_style('ss-pika');
       wp_enqueue_style('ss-social');
       // wp_enqueue_style('bscss');
       // wp_enqueue_style('pushycss');

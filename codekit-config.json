@@ -281,14 +281,27 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/inc\/slider.php" : {
+    "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/slider.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
+    },
+    "\/lib\/metabox\/images\/ui-icons_454545_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
     },
     "\/js\/pin.js" : {
       "ignoreWasSetByUser" : 0,
@@ -310,17 +323,6 @@
       "processed" : 0,
       "outputAbbreviatedPath" : "\/screenshot.png",
       "initialSize" : 54050,
-      "fileType" : 8192
-    },
-    "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
-      "initialSize" : 4369,
       "fileType" : 8192
     },
     "\/sass\/easy-responsive-tabs.scss" : {
@@ -346,15 +348,6 @@
       "outputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social-ck.js",
       "fileType" : 64
     },
-    "\/inc\/content-article.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/content-article.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/page.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -363,6 +356,17 @@
       "inputAbbreviatedPath" : "\/page.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/js\/jquery.bxslider.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/jquery.bxslider.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.bxslider-ck.js",
+      "fileType" : 64
     },
     "\/sass\/pushy.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -385,17 +389,23 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/sass\/format.scss" : {
+    "\/inc\/content-article.php" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/format.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/format.css",
-      "fileType" : 4,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/inc\/content-article.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/inc\/slider.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/inc\/slider.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/theme.js" : {
       "ignoreWasSetByUser" : 0,
@@ -408,36 +418,17 @@
       "outputAbbreviatedPath" : "\/js\/theme-ck.js",
       "fileType" : 64
     },
-    "\/lib\/metabox\/images\/ui-icons_454545_256x240.png" : {
+    "\/sass\/format.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
-    "\/js\/jquery.bxslider.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.bxslider.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.bxslider-ck.js",
-      "fileType" : 64
-    },
-    "\/fonts\/ss-social-circle\/ss-social-circle.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social-circle.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
+      "inputAbbreviatedPath" : "\/sass\/format.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/format.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     },
     "\/404.php" : {
       "ignoreWasSetByUser" : 0,
@@ -458,6 +449,15 @@
       "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
       "initialSize" : 110,
       "fileType" : 8192
+    },
+    "\/fonts\/ss-social-circle\/ss-social-circle.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social-circle.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/sass\/normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -583,7 +583,7 @@
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
       "inputAbbreviatedPath" : "\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
+      "outputAbbreviatedPath" : "\/No Output Path",
       "fileType" : 16
     },
     "\/lib\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png" : {
@@ -637,16 +637,16 @@
       "initialSize" : 50796,
       "fileType" : 8192
     },
-    "\/js\/pushy.js" : {
+    "\/lib\/metabox\/images\/ui-icons_222222_256x240.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/pushy.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/pushy-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
     },
     "\/js\/custom.modernizr.js" : {
       "ignoreWasSetByUser" : 0,
@@ -689,26 +689,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/metabox\/images\/ui-icons_222222_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
-    "\/css\/theme.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/theme.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
     "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -719,6 +699,26 @@
       "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
       "initialSize" : 4369,
       "fileType" : 8192
+    },
+    "\/js\/pushy.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/pushy.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/pushy-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/theme.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/theme.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/lib\/post-types.php" : {
       "ignoreWasSetByUser" : 0,

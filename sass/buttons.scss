@@ -1,9 +1,9 @@
 
 /* special typography */
 
-.button {
-	@include rounded(2px);	
-	text-transform: uppercase;
+a.button {
+	@include rounded(3px);	
+	font-size: 1em;
 	background: $primarycolor;
 	color:#fff;
 	padding: 7px 15px;
@@ -25,6 +25,18 @@
 	box-sizing: border-box;
 	display: inline-block;
 	zoom: 1;
+	&.small {
+		padding: 4px 10px;
+		font-size: .8em;
+	}
+	&.medium {
+		padding: 6px 12px;
+		font-size: 1.1em;
+	}
+	&.large {
+		padding: 12px 20px;
+		font-size: 1.3em;
+	}
 	&:hover {
 		background: $secondarycolor;
 	}

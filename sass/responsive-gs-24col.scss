@@ -32,8 +32,19 @@
 
 /* DEFAULT ROW STYLES */
 .row { padding-top: 1.5em; padding-bottom: 1.5em; } /* set according to preference*/
-.nopadrow { padding-top: 0; padding-bottom: 0; } /* set according to preference*/
+.row.nopadrow { padding-top: 0; padding-bottom: 0; } /* set according to preference*/
+.row.nopadbottom {padding-bottom:0;}
+.row.nopadtop {padding-top: 0;}
 
+.no-top-margin {margin-top: 0 !important;}
+.no-bottom-margin {margin-bottom: 0 !important;}
+.margin-top-20 {margin-top: 20px !important;}
+.margin-bottom-20 {margin-bottom: 20px !important;}
+.margin-top-40 {margin-top: 40px !important;}
+.no-padding-bottom {padding-bottom: 0 !important;}
+.no-padding-top {padding-top: 0 !important;}
+.alignRight {text-align: right;}
+.alignLeft {text-align: left;}
 										  
 /* DEFAULT COLUMN STYLES */
 .col { 
