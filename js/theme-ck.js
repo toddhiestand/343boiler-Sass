@@ -1,2 +1,0 @@
-// Clear the input boxes when clicked
-jQuery(document).ready(function(){jQuery.fn.cleardefault=function(){return this.focus(function(){this.value==this.defaultValue&&(this.value="")}).blur(function(){this.value.length||(this.value=this.defaultValue)})};jQuery(".input_clear input, .input_clear textarea").cleardefault()});

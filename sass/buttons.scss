@@ -1,18 +1,12 @@
 
 /* special typography */
 
-a.button {
-	@include rounded(3px);	
-<<<<<<< HEAD
-	font-size: 1em;
-=======
-	@include font-size(8);
-	font-family: $boldfont;
-	line-height:100%;
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
+.button {
+	@include rounded(2px);	
+	text-transform: uppercase;
 	background: $primarycolor;
 	color:#fff;
-	padding: 10px 15px 7px 15px;
+	padding: 7px 15px;
 	position: relative;
 	border:none;
 	top: 0;
@@ -31,18 +25,6 @@ a.button {
 	box-sizing: border-box;
 	display: inline-block;
 	zoom: 1;
-	&.small {
-		padding: 4px 10px;
-		font-size: .8em;
-	}
-	&.medium {
-		padding: 6px 12px;
-		font-size: 1.1em;
-	}
-	&.large {
-		padding: 12px 20px;
-		font-size: 1.3em;
-	}
 	&:hover {
 		background: $secondarycolor;
 	}

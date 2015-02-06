@@ -2,36 +2,107 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "8403",
   "files" : {
-    "\/global\/postmeta.php" : {
+    "\/js\/easyResponsiveTabs.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/global\/postmeta.php",
+      "inputAbbreviatedPath" : "\/js\/easyResponsiveTabs.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/easyResponsiveTabs-ck.js",
+      "fileType" : 64
+    },
+    "\/css\/ie.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/ie.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/fonts\/symbolset\/ss-pika.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/fonts\/symbolset\/ss-pika.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/sass\/images.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/images.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/images.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/header.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/header.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/metabox\/images\/ui-bg_flat_75_ffffff_40x100.png" : {
+    "\/js\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_flat_75_ffffff_40x100.png",
+      "inputAbbreviatedPath" : "\/js\/modernizr-2.6.2.min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/modernizr-2.6.2.min-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/widgets.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/widgets.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/meta-boxes.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/meta-boxes.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/images\/login-image.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/images\/login-image.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_flat_75_ffffff_40x100.png",
-      "initialSize" : 178,
+      "outputAbbreviatedPath" : "\/images\/login-image.png",
+      "initialSize" : 59877,
       "fileType" : 8192
     },
-    "\/screenshot.png" : {
+    "\/sass\/forms.scss" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/screenshot.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/screenshot.png",
-      "initialSize" : 54050,
-      "fileType" : 8192
+      "inputAbbreviatedPath" : "\/sass\/forms.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/forms.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     },
     "\/sidebar.php" : {
       "ignoreWasSetByUser" : 0,
@@ -42,30 +113,41 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/page-resources.php" : {
+    "\/js\/jquery.dropdown.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page-resources.php",
+      "inputAbbreviatedPath" : "\/js\/jquery.dropdown.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.dropdown-ck.js",
+      "fileType" : 64
+    },
+    "\/page-sidebar.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/page-sidebar.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/post-types.php" : {
+    "\/archive.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/post-types.php",
+      "inputAbbreviatedPath" : "\/archive.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/404.php" : {
+    "\/inc\/feature-pagination.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/404.php",
+      "inputAbbreviatedPath" : "\/inc\/feature-pagination.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -81,26 +163,83 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/sass\/format.scss" : {
+    "\/lib\/metabox\/style.css" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/format.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/format.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/style.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
+      "inputAbbreviatedPath" : "\/lib\/metabox\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 16
+    },
+    "\/lib\/metabox\/images\/ui-bg_glass_95_fef1ec_1x400.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+      "initialSize" : 119,
+      "fileType" : 8192
+    },
+    "\/lib\/admin.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/admin.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/login.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/login.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/fonts\/symbolset\/ss-pika.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/fonts\/symbolset\/ss-pika.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/fonts\/symbolset\/ss-pika-ck.js",
+      "fileType" : 64
+    },
+    "\/searchform.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/searchform.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/metabox\/images\/ui-icons_888888_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_888888_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_888888_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
+    },
+    "\/fonts\/ss-social-circle\/documentation.html" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/documentation.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/js\/jquery.customSelect.min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -113,73 +252,6 @@
       "outputAbbreviatedPath" : "\/js\/jquery.customSelect.min-ck.js",
       "fileType" : 64
     },
-    "\/sass\/images.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/images.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/images.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/lib\/metabox\/jquery.cmbScripts.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/jquery.cmbScripts.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/jquery.cmbScripts-ck.js",
-      "fileType" : 64
-    },
-    "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
-    "\/sass\/mobile.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/mobile.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/mobile.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/sass\/responsive-gs-24col.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/responsive-gs-24col.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/responsive-gs-24col.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/lib\/admin.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/admin.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/lib\/metabox\/images\/ui-bg_highlight-soft_75_cccccc_1x100.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -191,53 +263,64 @@
       "initialSize" : 101,
       "fileType" : 8192
     },
-    "\/inc\/content-article.php" : {
+    "\/lib\/metabox\/init.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/content-article.php",
+      "inputAbbreviatedPath" : "\/lib\/metabox\/init.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/head.php" : {
+    "\/single.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/head.php",
+      "inputAbbreviatedPath" : "\/single.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/metabox\/example-functions.php" : {
+    "\/inc\/slider.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/example-functions.php",
+      "inputAbbreviatedPath" : "\/inc\/slider.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/js\/custom.modernizr.js" : {
+    "\/js\/pin.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/custom.modernizr.js",
+      "inputAbbreviatedPath" : "\/js\/pin.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/custom.modernizr-ck.js",
+      "outputAbbreviatedPath" : "\/js\/pin-ck.js",
       "fileType" : 64
     },
-    "\/lib\/metabox\/images\/ui-bg_glass_95_fef1ec_1x400.png" : {
+    "\/screenshot.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_95_fef1ec_1x400.png",
+      "inputAbbreviatedPath" : "\/screenshot.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_95_fef1ec_1x400.png",
-      "initialSize" : 119,
+      "outputAbbreviatedPath" : "\/screenshot.png",
+      "initialSize" : 54050,
+      "fileType" : 8192
+    },
+    "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
+      "initialSize" : 4369,
       "fileType" : 8192
     },
     "\/sass\/easy-responsive-tabs.scss" : {
@@ -252,418 +335,32 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/images\/showhope-horiz.png" : {
+    "\/fonts\/ss-social-circle\/ss-social.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/showhope-horiz.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/showhope-horiz.png",
-      "initialSize" : 1138199,
-      "fileType" : 8192
-    },
-<<<<<<< HEAD
-    "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png" : {
-=======
-    "\/images\/controls.png" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
-    "\/lib\/metabox\/images\/ui-icons_454545_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
-      "initialSize" : 4369,
-=======
-      "inputAbbreviatedPath" : "\/images\/controls.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/controls.png",
-      "initialSize" : 102730,
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "fileType" : 8192
-    },
-    "\/js\/jquery.stellar.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.stellar.js",
+      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.stellar-ck.js",
+      "outputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social-ck.js",
       "fileType" : 64
     },
-    "\/lib\/login.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/login.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-<<<<<<< HEAD
-    "\/sass\/easy-responsive-tabs.scss" : {
-=======
-    "\/lib\/metabox\/images\/ui-bg_glass_55_fbf9ee_1x400.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
-      "initialSize" : 120,
-      "fileType" : 8192
-    },
-    "\/footer.php" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/footer.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png",
-      "initialSize" : 111,
-      "fileType" : 8192
-    },
-<<<<<<< HEAD
-    "\/page.php" : {
-=======
-    "\/lib\/metabox\/images\/ui-icons_888888_256x240.png" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
-      "inputAbbreviatedPath" : "\/page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/js\/jquery.bxslider.js" : {
-=======
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_888888_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_888888_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
-    "\/archive.php" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
-      "inputAbbreviatedPath" : "\/js\/jquery.bxslider.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.bxslider-ck.js",
-      "fileType" : 64
-=======
-      "inputAbbreviatedPath" : "\/archive.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-    },
-    "\/lib\/metabox\/images\/ico-delete.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ico-delete.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ico-delete.png",
-      "initialSize" : 715,
-      "fileType" : 8192
-    },
-    "\/css\/theme.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/theme.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-<<<<<<< HEAD
     "\/inc\/content-article.php" : {
-=======
-    "\/js\/jquery.bxslider.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.bxslider.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.bxslider-ck.js",
-      "fileType" : 64
-    },
-    "\/sass\/nav.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/nav.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/nav.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/lib\/widgets.php" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
       "inputAbbreviatedPath" : "\/inc\/content-article.php",
-=======
-      "inputAbbreviatedPath" : "\/lib\/widgets.php",
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/inc\/slider.php" : {
+    "\/page.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/slider.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/js\/theme.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/theme.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/theme-ck.js",
-      "fileType" : 64
-    },
-<<<<<<< HEAD
-    "\/sass\/format.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/format.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/format.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/404.php" : {
-=======
-    "\/searchform.php" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/searchform.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/symbolset\/ss-pika.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/symbolset\/ss-pika.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/fonts\/symbolset\/ss-pika-ck.js",
-      "fileType" : 64
-    },
-<<<<<<< HEAD
-    "\/fonts\/ss-social-circle\/ss-social-circle.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social-circle.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/sass\/normalize.scss" : {
-=======
-    "\/sass\/forms.scss" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/forms.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/forms.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/sass\/theme.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/theme.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/theme.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/fonts\/webfonts.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/webfonts.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/js\/easyResponsiveTabs.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/easyResponsiveTabs.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/easyResponsiveTabs-ck.js",
-      "fileType" : 64
-    },
-    "\/lib\/metabox\/images\/ui-icons_454545_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
-    "\/lib\/metabox\/images\/ui-bg_flat_0_aaaaaa_40x100.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
-      "initialSize" : 180,
-      "fileType" : 8192
-    },
-    "\/sass\/buttons.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/buttons.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/buttons.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/lib\/metabox\/images\/ui-icons_222222_256x240.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-    },
-    "\/index.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/header.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/header.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/page-faq.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page-faq.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/images\/magnify.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/magnify.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/magnify.png",
-      "initialSize" : 49310,
-      "fileType" : 8192
-    },
-    "\/images\/login-image.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/login-image.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/login-image.png",
-      "initialSize" : 59877,
-      "fileType" : 8192
-    },
-    "\/inc\/title-head.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/title-head.php",
+      "inputAbbreviatedPath" : "\/page.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
@@ -679,49 +376,88 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png" : {
+    "\/lib\/metabox\/example-functions.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
-      "inputAbbreviatedPath" : "\/style.css",
-      "outputAbbreviatedPath" : "\/No Output Path",
-      "fileType" : 16
-=======
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
+      "inputAbbreviatedPath" : "\/lib\/metabox\/example-functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/format.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/format.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/format.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/js\/theme.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/theme.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/theme-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/metabox\/images\/ui-icons_454545_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_2e83ff_256x240.png",
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_454545_256x240.png",
       "initialSize" : 4369,
       "fileType" : 8192
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
     },
-    "\/page.php" : {
+    "\/js\/jquery.bxslider.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/js\/jquery.bxslider.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/jquery.bxslider-ck.js",
+      "fileType" : 64
     },
-    "\/lib\/taxonomies.php" : {
+    "\/fonts\/ss-social-circle\/ss-social-circle.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/taxonomies.php",
+      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social-circle.css",
       "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "fileType" : 16
     },
-    "\/sass\/page-resources.php" : {
+    "\/404.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/page-resources.php",
+      "inputAbbreviatedPath" : "\/404.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
+    },
+    "\/lib\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+      "initialSize" : 110,
+      "fileType" : 8192
     },
     "\/sass\/normalize.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -735,236 +471,99 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/fonts\/symbolset\/ss-pika.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/symbolset\/ss-pika.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/js\/jquery.dropdown.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/jquery.dropdown.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/jquery.dropdown-ck.js",
-      "fileType" : 64
-    },
-<<<<<<< HEAD
-    "\/lib\/metabox\/images\/ui-icons_222222_256x240.png" : {
-=======
-    "\/js\/theme-ck.js" : {
+    "\/sass\/theme.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/theme-ck.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/theme-ck-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/pin.js" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
-      "initialSize" : 4369,
-      "fileType" : 8192
-=======
-      "inputAbbreviatedPath" : "\/js\/pin.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/pin-ck.js",
-      "fileType" : 64
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-    },
-    "\/images\/logo.png" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/images\/logo.png",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/images\/logo.png",
-      "initialSize" : 10691,
-      "fileType" : 8192
-    },
-    "\/fonts\/ss-social-circle\/ss-social.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social-ck.js",
-      "fileType" : 64
-    },
-    "\/fonts\/ss-social-circle\/documentation.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/documentation.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/sass\/gravity-forms.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/gravity-forms.scss",
+      "inputAbbreviatedPath" : "\/sass\/theme.scss",
       "outputStyle" : 2,
       "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/gravity-forms.css",
+      "outputAbbreviatedPath" : "\/sass\/theme.css",
       "fileType" : 4,
       "debugStyle" : 1
     },
-<<<<<<< HEAD
-    "\/functions.php" : {
+    "\/global\/postmeta.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
+      "inputAbbreviatedPath" : "\/global\/postmeta.php",
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png" : {
-=======
-    "\/lib\/metabox\/images\/ui-bg_glass_65_ffffff_1x400.png" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
+    "\/head.php" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
+      "inputAbbreviatedPath" : "\/head.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/metabox\/images\/ico-delete.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ico-delete.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
-      "initialSize" : 4369,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ico-delete.png",
+      "initialSize" : 715,
       "fileType" : 8192
     },
-    "\/js\/pushy.js" : {
-=======
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_65_ffffff_1x400.png",
+    "\/index.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/index.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/metabox\/images\/ui-bg_flat_0_aaaaaa_40x100.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_65_ffffff_1x400.png",
-      "initialSize" : 105,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
+      "initialSize" : 180,
       "fileType" : 8192
     },
-    "\/css\/jquery.bxslider.css" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
+    "\/js\/jquery.stellar.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
-      "inputAbbreviatedPath" : "\/js\/pushy.js",
+      "inputAbbreviatedPath" : "\/js\/jquery.stellar.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/pushy-ck.js",
+      "outputAbbreviatedPath" : "\/js\/jquery.stellar-ck.js",
       "fileType" : 64
     },
-    "\/css\/theme.css" : {
-=======
-      "inputAbbreviatedPath" : "\/css\/jquery.bxslider.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/css\/ie.css" : {
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
+    "\/lib\/metabox\/jquery.cmbScripts.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-<<<<<<< HEAD
-      "inputAbbreviatedPath" : "\/css\/theme.css",
-=======
-      "inputAbbreviatedPath" : "\/css\/ie.css",
->>>>>>> ddbfd9ae6876e29b3e68b730d96cbf98c3d0f63d
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/functions.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/functions.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/sass\/pagination.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/pagination.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/pagination.css",
-      "fileType" : 4,
-      "debugStyle" : 1
-    },
-    "\/js\/modernizr-2.6.2.min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/modernizr-2.6.2.min.js",
+      "inputAbbreviatedPath" : "\/lib\/metabox\/jquery.cmbScripts.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/modernizr-2.6.2.min-ck.js",
+      "outputAbbreviatedPath" : "\/lib\/metabox\/jquery.cmbScripts-ck.js",
       "fileType" : 64
     },
-    "\/lib\/metabox\/init.php" : {
+    "\/lib\/metabox\/images\/ui-bg_glass_55_fbf9ee_1x400.png" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/init.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/metabox\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/single.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/single.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/lib\/meta-boxes.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/meta-boxes.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_55_fbf9ee_1x400.png",
+      "initialSize" : 120,
+      "fileType" : 8192
     },
     "\/style.scss" : {
       "ignoreWasSetByUser" : 0,
@@ -978,17 +577,54 @@
       "fileType" : 4,
       "debugStyle" : 1
     },
-    "\/sass\/variables.scss" : {
+    "\/style.css" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/sass\/variables.scss",
-      "outputStyle" : 2,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/sass\/variables.css",
-      "fileType" : 4,
-      "debugStyle" : 1
+      "inputAbbreviatedPath" : "\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_dadada_1x400.png",
+      "initialSize" : 111,
+      "fileType" : 8192
+    },
+    "\/lib\/taxonomies.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/taxonomies.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/metabox\/images\/ui-bg_glass_65_ffffff_1x400.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_65_ffffff_1x400.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_65_ffffff_1x400.png",
+      "initialSize" : 105,
+      "fileType" : 8192
+    },
+    "\/home-page.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/home-page.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
     "\/logo.png" : {
       "ignoreWasSetByUser" : 0,
@@ -1001,33 +637,6 @@
       "initialSize" : 50796,
       "fileType" : 8192
     },
-    "\/inc\/feature-pagination.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/inc\/feature-pagination.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
-    "\/fonts\/ss-social-circle\/ss-social-circle.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/fonts\/ss-social-circle\/ss-social-circle.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
-    },
-    "\/home-page.php" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/home-page.php",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/pushy.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -1039,16 +648,163 @@
       "outputAbbreviatedPath" : "\/js\/pushy-ck.js",
       "fileType" : 64
     },
-    "\/lib\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png" : {
+    "\/js\/custom.modernizr.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
+      "inputAbbreviatedPath" : "\/js\/custom.modernizr.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/custom.modernizr-ck.js",
+      "fileType" : 64
+    },
+    "\/lib\/wp-config.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/wp-config.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/variables.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/variables.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/variables.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/functions.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/functions.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/lib\/metabox\/images\/ui-icons_222222_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
       "processed" : 0,
-      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_glass_75_e6e6e6_1x400.png",
-      "initialSize" : 110,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_222222_256x240.png",
+      "initialSize" : 4369,
       "fileType" : 8192
+    },
+    "\/css\/theme.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/theme.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-icons_cd0a0a_256x240.png",
+      "initialSize" : 4369,
+      "fileType" : 8192
+    },
+    "\/lib\/post-types.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/post-types.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/sass\/nav.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/nav.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/nav.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/footer.php" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/footer.php",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
+    },
+    "\/css\/jquery.bxslider.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/jquery.bxslider.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
+    "\/lib\/metabox\/images\/ui-bg_flat_75_ffffff_40x100.png" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_flat_75_ffffff_40x100.png",
+      "processed" : 0,
+      "outputAbbreviatedPath" : "\/lib\/metabox\/images\/ui-bg_flat_75_ffffff_40x100.png",
+      "initialSize" : 178,
+      "fileType" : 8192
+    },
+    "\/sass\/buttons.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/buttons.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/buttons.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/sass\/responsive-gs-24col.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/responsive-gs-24col.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/responsive-gs-24col.css",
+      "fileType" : 4,
+      "debugStyle" : 1
+    },
+    "\/sass\/pagination.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/sass\/pagination.scss",
+      "outputStyle" : 2,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/sass\/pagination.css",
+      "fileType" : 4,
+      "debugStyle" : 1
     }
   },
   "manualImportLinks" : [
@@ -1229,7 +985,7 @@
   },
   "projectAttributes" : {
     "bourbonEnabled" : 0,
-    "displayValue" : "MovementClubTheme",
+    "displayValue" : "343boiler",
     "displayValueWasSetByUser" : 0,
     "compassEnabled" : 0
   }

@@ -3,7 +3,7 @@
 	<div class="wide-container">
 		<div class="container">
 			<div class="row">
-				<div class="page-content col span_18 clr">
+				<div class="page-content col span_16 clr">
 					<header>
 						<h1>Not Found</h1>
 					</header>

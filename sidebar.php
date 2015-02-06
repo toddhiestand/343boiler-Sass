@@ -1,7 +1,7 @@
-<div class="sidebar col span_6">	
+<div class="sidebar col span_8">	
 
 	<?php if ( !function_exists('dynamic_sidebar')
-		|| !dynamic_sidebar(mainsidebar) ) : ?>
+		|| !dynamic_sidebar(sidebar) ) : ?>
 	<?php endif; ?>
 
 </div><!-- end sidebar-->

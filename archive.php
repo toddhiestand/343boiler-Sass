@@ -1,24 +1,10 @@
-<?php 
-	get_header(); 
-	get_template_part( 'head'); 
-?>
-
-<div class="wide-container page-header" style="background-image: url(<?php if( get_post_meta($post->ID, "billboard_image", true) ): ?><?php the_field('billboard_image'); ?><?php else: ?><?php the_field('default_page_header', 'option'); ?><?php endif; ?>);">
-	<div class="container">
-		<div class="row nopadrow">
-			<div class="col span_24">
-				<header>
-					<h2>Blog</h2>
-				</header>
-			</div>
-		</div>
-	</div>
-</div>	
+<?php get_header() ?>
+	<?php get_template_part( 'head'); ?>
 
 <div  class="wide-container">
 	<div class="container">
 		<div class="row">
-			<div class="page-content col span_18 clr">
+			<div class="page-content col span_16 clr">
 				<?php if (have_posts()) : ?>
 				
 				<?php $post = $posts[0]; // Hack. Set $post so that the_date() works. ?>
@@ -52,8 +38,12 @@
 					</header>	
 				<?php } ?>
 				<?php while (have_posts()) : the_post(); ?>
-					<div class="articles-container">
-					<?php get_template_part( 'inc/content', 'article' ); ?>
+					<div class="article">
+						<p class="meta date"><?php the_time('F j, Y'); ?></p>
+						<h2><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></h2>
+						<?php the_post_thumbnail( 'image-small' ); ?>		
+						<?php wpe_excerpt('wpe_excerptlength_index', 'wpe_excerptmore'); ?>			
+						<p class="meta comments"><a href="<?php comments_link(); ?>" class="comments"><?php comments_number('0 Comments', '1 Comment', '% Comments', 'number'); ?></a></p>
 					</div>
 				<?php endwhile; ?>
 					<?php get_template_part( 'inc/feature', 'pagination' ); ?>
